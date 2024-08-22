@@ -2604,14 +2604,14 @@ void update_filter(void){
 	timestamp = __HAL_TIM_GET_COUNTER(&htim13);
 	uint32_t diff_ticks;
 	if (timestamp >= previousTimestamp) {
-			diff_ticks = timestamp - previousTimestamp;
+		diff_ticks = timestamp - previousTimestamp;
 	} else {
-			diff_ticks = (65536 - previousTimestamp) + timestamp;
+		diff_ticks = (65536 - previousTimestamp) + timestamp;
 	}
 	deltat = (float)diff_ticks * 4096.0f / 275000.0f;
 	previousTimestamp = __HAL_TIM_GET_COUNTER(&htim13);
 
-	// pre-calculated values for speeding up computation
+	// pre-allocate values for speeding up computation
 	float recipNorm;
 	float s0, s1, s2, s3;
 	float qDot1, qDot2, qDot3, qDot4;
@@ -2782,9 +2782,9 @@ void update_filter(void){
 		}
 
 		// integrate the corrected velocity into a change in position
-		delta_x_imu.x += v_corrected.x * deltat/1000 * 9.81;
-		delta_x_imu.y += v_corrected.y * deltat/1000 * 9.81;
-		delta_x_imu.z += v_corrected.z * deltat/1000 * 9.81;
+		delta_x_imu.x += v_corrected.x * deltat/1000;
+		delta_x_imu.y += v_corrected.y * deltat/1000;
+		delta_x_imu.z += v_corrected.z * deltat/1000;
 	}
 
 	// prevent the imu counter from going to infinity
