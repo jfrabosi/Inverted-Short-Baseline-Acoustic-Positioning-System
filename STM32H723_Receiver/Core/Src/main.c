@@ -2984,30 +2984,30 @@ float invSqrt(float x) {
  * @see https://medium.com/mti-technology/how-to-generate-gaussian-samples-3951f2203ab0
  */
 float randn(float mean, float stddev) {
-    static uint32_t seed = 1;
-    static int have_spare = 0;
-    static float spare;
-    float u, v, s, mul;
+  static uint32_t seed = 1;
+  static int have_spare = 0;
+  static float spare;
+  float u, v, s, mul;
 
-    if (have_spare) {
-        have_spare = 0;
-        return mean + stddev * spare;
-    }
+  if (have_spare) {
+    have_spare = 0;
+    return mean + stddev * spare;
+  }
 
-    do {
-        // Generate two uniform random numbers between -1 and 1
-        seed = 1664525 * seed + 1013904223; // Linear congruential generator
-        u = ((float)seed / UINT32_MAX) * 2 - 1;
-        seed = 1664525 * seed + 1013904223;
-        v = ((float)seed / UINT32_MAX) * 2 - 1;
-        s = u * u + v * v;
-    } while (s >= 1 || s == 0);
+  do {
+    // Generate two uniform random numbers between -1 and 1
+    seed = 1664525 * seed + 1013904223; // Linear congruential generator
+    u = ((float)seed / UINT32_MAX) * 2 - 1;
+    seed = 1664525 * seed + 1013904223;
+    v = ((float)seed / UINT32_MAX) * 2 - 1;
+    s = u * u + v * v;
+  } while (s >= 1 || s == 0);
 
-    mul = sqrtf(-2.0f * logf(s) / s);
-    spare = v * mul;
-    have_spare = 1;
+  mul = sqrtf(-2.0f * logf(s) / s);
+  spare = v * mul;
+  have_spare = 1;
 
-    return mean + stddev * u * mul;
+  return mean + stddev * u * mul;
 }
 
 /**********************************************************************************
@@ -3023,30 +3023,30 @@ float randn(float mean, float stddev) {
  * This function
  */
 KalmanFilter* create_kalman_filter(size_t state_dim, size_t meas_dim) {
-    KalmanFilter* kf = (KalmanFilter*)malloc(sizeof(KalmanFilter));
-    if (kf == NULL) return NULL;
+  KalmanFilter* kf = (KalmanFilter*)malloc(sizeof(KalmanFilter));
+  if (kf == NULL) return NULL;
 
-    kf->state_dim = state_dim;
-    kf->meas_dim = meas_dim;
+  kf->state_dim = state_dim;
+  kf->meas_dim = meas_dim;
 
-    kf->x_data = (float32_t*)malloc(state_dim * sizeof(float32_t));
-    kf->P_data = (float32_t*)malloc(state_dim * state_dim * sizeof(float32_t));
-    kf->F_data = (float32_t*)malloc(state_dim * state_dim * sizeof(float32_t));
-    kf->H_data = (float32_t*)malloc(meas_dim * state_dim * sizeof(float32_t));
-    kf->Q_data = (float32_t*)malloc(state_dim * state_dim * sizeof(float32_t));
-    kf->R_data = (float32_t*)malloc(meas_dim * meas_dim * sizeof(float32_t));
-    kf->K_data = (float32_t*)malloc(state_dim * meas_dim * sizeof(float32_t));
+  kf->x_data = (float32_t*)malloc(state_dim * sizeof(float32_t));
+  kf->P_data = (float32_t*)malloc(state_dim * state_dim * sizeof(float32_t));
+  kf->F_data = (float32_t*)malloc(state_dim * state_dim * sizeof(float32_t));
+  kf->H_data = (float32_t*)malloc(meas_dim * state_dim * sizeof(float32_t));
+  kf->Q_data = (float32_t*)malloc(state_dim * state_dim * sizeof(float32_t));
+  kf->R_data = (float32_t*)malloc(meas_dim * meas_dim * sizeof(float32_t));
+  kf->K_data = (float32_t*)malloc(state_dim * meas_dim * sizeof(float32_t));
 
-    // Initialize matrices
-    arm_mat_init_f32(&kf->x, state_dim, 1, kf->x_data);
-    arm_mat_init_f32(&kf->P, state_dim, state_dim, kf->P_data);
-    arm_mat_init_f32(&kf->F, state_dim, state_dim, kf->F_data);
-    arm_mat_init_f32(&kf->H, meas_dim, state_dim, kf->H_data);
-    arm_mat_init_f32(&kf->Q, state_dim, state_dim, kf->Q_data);
-    arm_mat_init_f32(&kf->R, meas_dim, meas_dim, kf->R_data);
-    arm_mat_init_f32(&kf->K, state_dim, meas_dim, kf->K_data);
+  // Initialize matrices
+  arm_mat_init_f32(&kf->x, state_dim, 1, kf->x_data);
+  arm_mat_init_f32(&kf->P, state_dim, state_dim, kf->P_data);
+  arm_mat_init_f32(&kf->F, state_dim, state_dim, kf->F_data);
+  arm_mat_init_f32(&kf->H, meas_dim, state_dim, kf->H_data);
+  arm_mat_init_f32(&kf->Q, state_dim, state_dim, kf->Q_data);
+  arm_mat_init_f32(&kf->R, meas_dim, meas_dim, kf->R_data);
+  arm_mat_init_f32(&kf->K, state_dim, meas_dim, kf->K_data);
 
-    return kf;
+  return kf;
 }
 
 /**
@@ -3062,12 +3062,12 @@ KalmanFilter* create_kalman_filter(size_t state_dim, size_t meas_dim) {
 void kalman_filter_init(KalmanFilter* kf, float32_t* x_values, float32_t* P_values,
                         float32_t* F_values, float32_t* H_values,
                         float32_t* Q_values, float32_t* R_values) {
-    memcpy(kf->x_data, x_values, kf->state_dim * sizeof(float32_t));
-    memcpy(kf->P_data, P_values, kf->state_dim * kf->state_dim * sizeof(float32_t));
-    memcpy(kf->F_data, F_values, kf->state_dim * kf->state_dim * sizeof(float32_t));
-    memcpy(kf->H_data, H_values, kf->meas_dim * kf->state_dim * sizeof(float32_t));
-    memcpy(kf->Q_data, Q_values, kf->state_dim * kf->state_dim * sizeof(float32_t));
-    memcpy(kf->R_data, R_values, kf->meas_dim * kf->meas_dim * sizeof(float32_t));
+  memcpy(kf->x_data, x_values, kf->state_dim * sizeof(float32_t));
+  memcpy(kf->P_data, P_values, kf->state_dim * kf->state_dim * sizeof(float32_t));
+  memcpy(kf->F_data, F_values, kf->state_dim * kf->state_dim * sizeof(float32_t));
+  memcpy(kf->H_data, H_values, kf->meas_dim * kf->state_dim * sizeof(float32_t));
+  memcpy(kf->Q_data, Q_values, kf->state_dim * kf->state_dim * sizeof(float32_t));
+  memcpy(kf->R_data, R_values, kf->meas_dim * kf->meas_dim * sizeof(float32_t));
 }
 
 /**
@@ -3081,28 +3081,28 @@ void kalman_filter_init(KalmanFilter* kf, float32_t* x_values, float32_t* P_valu
  * @see https://thekalmanfilter.com/kalman-filter-explained-simply/
  */
 void kalman_filter_predict(KalmanFilter* kf) {
-    // Temporary matrices
-    float32_t* temp_state = (float32_t*)malloc(kf->state_dim * sizeof(float32_t));
-    float32_t* temp_cov = (float32_t*)malloc(kf->state_dim * kf->state_dim * sizeof(float32_t));
-    float32_t* temp_F_transpose = (float32_t*)malloc(kf->state_dim * kf->state_dim * sizeof(float32_t));
-    arm_matrix_instance_f32 temp_state_mat, temp_cov_mat, F_transpose_mat;
-    arm_mat_init_f32(&temp_state_mat, kf->state_dim, 1, temp_state);
-    arm_mat_init_f32(&temp_cov_mat, kf->state_dim, kf->state_dim, temp_cov);
-    arm_mat_init_f32(&F_transpose_mat, kf->state_dim, kf->state_dim, temp_F_transpose);
+  // Temporary matrices
+  float32_t* temp_state = (float32_t*)malloc(kf->state_dim * sizeof(float32_t));
+  float32_t* temp_cov = (float32_t*)malloc(kf->state_dim * kf->state_dim * sizeof(float32_t));
+  float32_t* temp_F_transpose = (float32_t*)malloc(kf->state_dim * kf->state_dim * sizeof(float32_t));
+  arm_matrix_instance_f32 temp_state_mat, temp_cov_mat, F_transpose_mat;
+  arm_mat_init_f32(&temp_state_mat, kf->state_dim, 1, temp_state);
+  arm_mat_init_f32(&temp_cov_mat, kf->state_dim, kf->state_dim, temp_cov);
+  arm_mat_init_f32(&F_transpose_mat, kf->state_dim, kf->state_dim, temp_F_transpose);
 
-    // x = F * x
-    arm_mat_mult_f32(&kf->F, &kf->x, &temp_state_mat);
-    memcpy(kf->x_data, temp_state, kf->state_dim * sizeof(float32_t));
+  // x = F * x
+  arm_mat_mult_f32(&kf->F, &kf->x, &temp_state_mat);
+  memcpy(kf->x_data, temp_state, kf->state_dim * sizeof(float32_t));
 
-    // P = F * P * F^T + Q
-    arm_mat_mult_f32(&kf->F, &kf->P, &temp_cov_mat);
-    arm_mat_trans_f32(&kf->F, &F_transpose_mat);
-    arm_mat_mult_f32(&temp_cov_mat, &F_transpose_mat, &kf->P);
-    arm_mat_add_f32(&kf->P, &kf->Q, &kf->P);
+  // P = F * P * F^T + Q
+  arm_mat_mult_f32(&kf->F, &kf->P, &temp_cov_mat);
+  arm_mat_trans_f32(&kf->F, &F_transpose_mat);
+  arm_mat_mult_f32(&temp_cov_mat, &F_transpose_mat, &kf->P);
+  arm_mat_add_f32(&kf->P, &kf->Q, &kf->P);
 
-    free(temp_state);
-    free(temp_cov);
-    free(temp_F_transpose);
+  free(temp_state);
+  free(temp_cov);
+  free(temp_F_transpose);
 }
 
 /**
@@ -3117,62 +3117,62 @@ void kalman_filter_predict(KalmanFilter* kf) {
  * @see https://thekalmanfilter.com/kalman-filter-explained-simply/
  */
 void kalman_filter_update(KalmanFilter* kf, float32_t* measurement) {
-    // Temporary matrices
-    float32_t* temp_state = (float32_t*)malloc(kf->state_dim * sizeof(float32_t));
-    float32_t* temp_measure = (float32_t*)malloc(kf->meas_dim * sizeof(float32_t));
-    float32_t* temp_H_P = (float32_t*)malloc(kf->meas_dim * kf->state_dim * sizeof(float32_t));
-    float32_t* temp_H_transpose = (float32_t*)malloc(kf->state_dim * kf->meas_dim * sizeof(float32_t));
-    float32_t* temp_P_H_transpose = (float32_t*)malloc(kf->state_dim * kf->meas_dim * sizeof(float32_t));
-    float32_t* temp_S = (float32_t*)malloc(kf->meas_dim * kf->meas_dim * sizeof(float32_t));
-    float32_t* temp_S_inv = (float32_t*)malloc(kf->meas_dim * kf->meas_dim * sizeof(float32_t));
-    float32_t* temp_K_H = (float32_t*)malloc(kf->state_dim * kf->state_dim * sizeof(float32_t));
-    float32_t* temp_K_H_P = (float32_t*)malloc(kf->state_dim * kf->state_dim * sizeof(float32_t));
+  // Temporary matrices
+  float32_t* temp_state = (float32_t*)malloc(kf->state_dim * sizeof(float32_t));
+  float32_t* temp_measure = (float32_t*)malloc(kf->meas_dim * sizeof(float32_t));
+  float32_t* temp_H_P = (float32_t*)malloc(kf->meas_dim * kf->state_dim * sizeof(float32_t));
+  float32_t* temp_H_transpose = (float32_t*)malloc(kf->state_dim * kf->meas_dim * sizeof(float32_t));
+  float32_t* temp_P_H_transpose = (float32_t*)malloc(kf->state_dim * kf->meas_dim * sizeof(float32_t));
+  float32_t* temp_S = (float32_t*)malloc(kf->meas_dim * kf->meas_dim * sizeof(float32_t));
+  float32_t* temp_S_inv = (float32_t*)malloc(kf->meas_dim * kf->meas_dim * sizeof(float32_t));
+  float32_t* temp_K_H = (float32_t*)malloc(kf->state_dim * kf->state_dim * sizeof(float32_t));
+  float32_t* temp_K_H_P = (float32_t*)malloc(kf->state_dim * kf->state_dim * sizeof(float32_t));
 
-    arm_matrix_instance_f32 temp_state_mat, temp_measure_mat, temp_H_P_mat, H_transpose_mat, P_H_transpose_mat, S_mat, S_inv_mat, K_H_mat, K_H_P_mat;
+  arm_matrix_instance_f32 temp_state_mat, temp_measure_mat, temp_H_P_mat, H_transpose_mat, P_H_transpose_mat, S_mat, S_inv_mat, K_H_mat, K_H_P_mat;
 
-    arm_mat_init_f32(&temp_state_mat, kf->state_dim, 1, temp_state);
-    arm_mat_init_f32(&temp_measure_mat, kf->meas_dim, 1, temp_measure);
-    arm_mat_init_f32(&temp_H_P_mat, kf->meas_dim, kf->state_dim, temp_H_P);
-    arm_mat_init_f32(&H_transpose_mat, kf->state_dim, kf->meas_dim, temp_H_transpose);
-    arm_mat_init_f32(&P_H_transpose_mat, kf->state_dim, kf->meas_dim, temp_P_H_transpose);
-    arm_mat_init_f32(&S_mat, kf->meas_dim, kf->meas_dim, temp_S);
-    arm_mat_init_f32(&S_inv_mat, kf->meas_dim, kf->meas_dim, temp_S_inv);
-    arm_mat_init_f32(&K_H_mat, kf->state_dim, kf->state_dim, temp_K_H);
-    arm_mat_init_f32(&K_H_P_mat, kf->state_dim, kf->state_dim, temp_K_H_P);
+  arm_mat_init_f32(&temp_state_mat, kf->state_dim, 1, temp_state);
+  arm_mat_init_f32(&temp_measure_mat, kf->meas_dim, 1, temp_measure);
+  arm_mat_init_f32(&temp_H_P_mat, kf->meas_dim, kf->state_dim, temp_H_P);
+  arm_mat_init_f32(&H_transpose_mat, kf->state_dim, kf->meas_dim, temp_H_transpose);
+  arm_mat_init_f32(&P_H_transpose_mat, kf->state_dim, kf->meas_dim, temp_P_H_transpose);
+  arm_mat_init_f32(&S_mat, kf->meas_dim, kf->meas_dim, temp_S);
+  arm_mat_init_f32(&S_inv_mat, kf->meas_dim, kf->meas_dim, temp_S_inv);
+  arm_mat_init_f32(&K_H_mat, kf->state_dim, kf->state_dim, temp_K_H);
+  arm_mat_init_f32(&K_H_P_mat, kf->state_dim, kf->state_dim, temp_K_H_P);
 
-    // y = z - H * x
-    arm_mat_mult_f32(&kf->H, &kf->x, &temp_measure_mat);
-    arm_sub_f32(measurement, temp_measure, temp_measure, kf->meas_dim);
+  // y = z - H * x
+  arm_mat_mult_f32(&kf->H, &kf->x, &temp_measure_mat);
+  arm_sub_f32(measurement, temp_measure, temp_measure, kf->meas_dim);
 
-    // S = H * P * H^T + R
-    arm_mat_mult_f32(&kf->H, &kf->P, &temp_H_P_mat);
-    arm_mat_trans_f32(&kf->H, &H_transpose_mat);
-    arm_mat_mult_f32(&temp_H_P_mat, &H_transpose_mat, &S_mat);
-    arm_mat_add_f32(&S_mat, &kf->R, &S_mat);
+  // S = H * P * H^T + R
+  arm_mat_mult_f32(&kf->H, &kf->P, &temp_H_P_mat);
+  arm_mat_trans_f32(&kf->H, &H_transpose_mat);
+  arm_mat_mult_f32(&temp_H_P_mat, &H_transpose_mat, &S_mat);
+  arm_mat_add_f32(&S_mat, &kf->R, &S_mat);
 
-    // K = P * H^T * S^-1
-    arm_mat_inverse_f32(&S_mat, &S_inv_mat);
-    arm_mat_mult_f32(&kf->P, &H_transpose_mat, &P_H_transpose_mat);
-    arm_mat_mult_f32(&P_H_transpose_mat, &S_inv_mat, &kf->K);
+  // K = P * H^T * S^-1
+  arm_mat_inverse_f32(&S_mat, &S_inv_mat);
+  arm_mat_mult_f32(&kf->P, &H_transpose_mat, &P_H_transpose_mat);
+  arm_mat_mult_f32(&P_H_transpose_mat, &S_inv_mat, &kf->K);
 
-    // x = x + K * y
-    arm_mat_mult_f32(&kf->K, &temp_measure_mat, &temp_state_mat);
-    arm_add_f32(kf->x_data, temp_state, kf->x_data, kf->state_dim);
+  // x = x + K * y
+  arm_mat_mult_f32(&kf->K, &temp_measure_mat, &temp_state_mat);
+  arm_add_f32(kf->x_data, temp_state, kf->x_data, kf->state_dim);
 
-    // P = (I - K * H) * P
-    arm_mat_mult_f32(&kf->K, &kf->H, &K_H_mat);
-    arm_mat_mult_f32(&K_H_mat, &kf->P, &K_H_P_mat);
-    arm_mat_sub_f32(&kf->P, &K_H_P_mat, &kf->P);
+  // P = (I - K * H) * P
+  arm_mat_mult_f32(&kf->K, &kf->H, &K_H_mat);
+  arm_mat_mult_f32(&K_H_mat, &kf->P, &K_H_P_mat);
+  arm_mat_sub_f32(&kf->P, &K_H_P_mat, &kf->P);
 
-    free(temp_state);
-    free(temp_measure);
-    free(temp_H_P);
-    free(temp_H_transpose);
-    free(temp_P_H_transpose);
-    free(temp_S);
-    free(temp_S_inv);
-    free(temp_K_H);
-    free(temp_K_H_P);
+  free(temp_state);
+  free(temp_measure);
+  free(temp_H_P);
+  free(temp_H_transpose);
+  free(temp_P_H_transpose);
+  free(temp_S);
+  free(temp_S_inv);
+  free(temp_K_H);
+  free(temp_K_H_P);
 }
 
 /**
@@ -3182,56 +3182,56 @@ void kalman_filter_update(KalmanFilter* kf, float32_t* measurement) {
  * This function houses the initial matrices for the combined KF.  It creates a Kalman filter struct with these matrices.
  */
 KalmanFilter* init_kalman_filter_combined(void) {
-    float32_t x_values[6] = {0, 0, 0, 0, 0, 0};
+  float32_t x_values[6] = {0, 0, 0, 0, 0, 0};
 
-    float32_t P_values[6 * 6] = {
-        10, 0, 0, 0, 0, 0,
-        0, 10, 0, 0, 0, 0,
-        0, 0, 10, 0, 0, 0,
-        0, 0, 0, 10, 0, 0,
-        0, 0, 0, 0, 10, 0,
-        0, 0, 0, 0, 0, 10
-    };
+  float32_t P_values[6 * 6] = {
+      10, 0, 0, 0, 0, 0,
+      0, 10, 0, 0, 0, 0,
+      0, 0, 10, 0, 0, 0,
+      0, 0, 0, 10, 0, 0,
+      0, 0, 0, 0, 10, 0,
+      0, 0, 0, 0, 0, 10
+  };
 
-    float32_t F_values[6 * 6] = {
-        1, 0, 0, 1, 0, 0,
-        0, 1, 0, 0, 1, 0,
-        0, 0, 1, 0, 0, 1,
-        0, 0, 0, 1, 0, 0,
-        0, 0, 0, 0, 1, 0,
-        0, 0, 0, 0, 0, 1
-    };
+  float32_t F_values[6 * 6] = {
+      1, 0, 0, 1, 0, 0,
+      0, 1, 0, 0, 1, 0,
+      0, 0, 1, 0, 0, 1,
+      0, 0, 0, 1, 0, 0,
+      0, 0, 0, 0, 1, 0,
+      0, 0, 0, 0, 0, 1
+  };
 
-    float32_t H_values[6 * 6] = {
-        1, 0, 0, 0, 0, 0,
-        0, 1, 0, 0, 0, 0,
-        0, 0, 1, 0, 0, 0,
-        0, 0, 0, 1, 0, 0,
-        0, 0, 0, 0, 1, 0,
-        0, 0, 0, 0, 0, 1
-    };
+  float32_t H_values[6 * 6] = {
+      1, 0, 0, 0, 0, 0,
+      0, 1, 0, 0, 0, 0,
+      0, 0, 1, 0, 0, 0,
+      0, 0, 0, 1, 0, 0,
+      0, 0, 0, 0, 1, 0,
+      0, 0, 0, 0, 0, 1
+  };
 
-    float32_t Q_values[6 * 6] = {
-        .1, 0, 0, 0, 0, 0,
-        0, .1, 0, 0, 0, 0,
-        0, 0, .1, 0, 0, 0,
-        0, 0, 0, 10, 0, 0,
-        0, 0, 0, 0, 10, 0,
-        0, 0, 0, 0, 0, 10
-    };
+  float32_t Q_values[6 * 6] = {
+      .1, 0, 0, 0, 0, 0,
+      0, .1, 0, 0, 0, 0,
+      0, 0, .1, 0, 0, 0,
+      0, 0, 0, 10, 0, 0,
+      0, 0, 0, 0, 10, 0,
+      0, 0, 0, 0, 0, 10
+  };
 
-    float32_t R_values[6 * 6] = {
-        1000, 0, 0, 0, 0, 0,
-        0, 1000, 0, 0, 0, 0,
-        0, 0, 1000, 0, 0, 0,
-        0, 0, 0, 10000, 0, 0,
-        0, 0, 0, 0, 10000, 0,
-        0, 0, 0, 0, 0, 10000
-    };
+  float32_t R_values[6 * 6] = {
+      1000, 0, 0, 0, 0, 0,
+      0, 1000, 0, 0, 0, 0,
+      0, 0, 1000, 0, 0, 0,
+      0, 0, 0, 10000, 0, 0,
+      0, 0, 0, 0, 10000, 0,
+      0, 0, 0, 0, 0, 10000
+  };
 
-    KalmanFilter* kf = create_kalman_filter(6, 6);
-    kalman_filter_init(kf, x_values, P_values, F_values, H_values, Q_values, R_values);
-    return kf;
+  KalmanFilter* kf = create_kalman_filter(6, 6);
+  kalman_filter_init(kf, x_values, P_values, F_values, H_values, Q_values, R_values);
+  return kf;
 }
 
 /**
@@ -3242,50 +3242,50 @@ KalmanFilter* init_kalman_filter_combined(void) {
  * It creates a Kalman filter struct with these matrices.
  */
 KalmanFilter* init_kalman_filter_isbl() {
-    float32_t x_values[6] = {0, 0, 0, 0, 0, 0};
+  float32_t x_values[6] = {0, 0, 0, 0, 0, 0};
 
-    float32_t P_values[6 * 6] = {
-        10, 0, 0, 0, 0, 0,
-        0, 10, 0, 0, 0, 0,
-        0, 0, 10, 0, 0, 0,
-        0, 0, 0, 10, 0, 0,
-        0, 0, 0, 0, 10, 0,
-        0, 0, 0, 0, 0, 10
-    };
+  float32_t P_values[6 * 6] = {
+      10, 0, 0, 0, 0, 0,
+      0, 10, 0, 0, 0, 0,
+      0, 0, 10, 0, 0, 0,
+      0, 0, 0, 10, 0, 0,
+      0, 0, 0, 0, 10, 0,
+      0, 0, 0, 0, 0, 10
+  };
 
-    float32_t F_values[6 * 6] = {
-        1, 0, 0, 1, 0, 0,
-        0, 1, 0, 0, 1, 0,
-        0, 0, 1, 0, 0, 1,
-        0, 0, 0, 1, 0, 0,
-        0, 0, 0, 0, 1, 0,
-        0, 0, 0, 0, 0, 1
-    };
+  float32_t F_values[6 * 6] = {
+      1, 0, 0, 1, 0, 0,
+      0, 1, 0, 0, 1, 0,
+      0, 0, 1, 0, 0, 1,
+      0, 0, 0, 1, 0, 0,
+      0, 0, 0, 0, 1, 0,
+      0, 0, 0, 0, 0, 1
+  };
 
-    float32_t H_values[3 * 6] = {
-        1, 0, 0, 0, 0, 0,
-        0, 1, 0, 0, 0, 0,
-        0, 0, 1, 0, 0, 0
-    };
+  float32_t H_values[3 * 6] = {
+      1, 0, 0, 0, 0, 0,
+      0, 1, 0, 0, 0, 0,
+      0, 0, 1, 0, 0, 0
+  };
 
-    float32_t Q_values[6 * 6] = {
-        .1, 0, 0, 0, 0, 0,
-        0, .1, 0, 0, 0, 0,
-        0, 0, .1, 0, 0, 0,
-        0, 0, 0, 10, 0, 0,
-        0, 0, 0, 0, 10, 0,
-        0, 0, 0, 0, 0, 10
-    };
+  float32_t Q_values[6 * 6] = {
+      .1, 0, 0, 0, 0, 0,
+      0, .1, 0, 0, 0, 0,
+      0, 0, .1, 0, 0, 0,
+      0, 0, 0, 10, 0, 0,
+      0, 0, 0, 0, 10, 0,
+      0, 0, 0, 0, 0, 10
+  };
 
-    float32_t R_values[3 * 3] = {
-        1000, 0, 0,
-        0, 1000, 0,
-        0, 0, 1000
-    };
+  float32_t R_values[3 * 3] = {
+      1000, 0, 0,
+      0, 1000, 0,
+      0, 0, 1000
+  };
 
-    KalmanFilter* kf = create_kalman_filter(6, 3);
-    kalman_filter_init(kf, x_values, P_values, F_values, H_values, Q_values, R_values);
-    return kf;
+  KalmanFilter* kf = create_kalman_filter(6, 3);
+  kalman_filter_init(kf, x_values, P_values, F_values, H_values, Q_values, R_values);
+  return kf;
 }
 
 /**
@@ -3300,22 +3300,22 @@ KalmanFilter* init_kalman_filter_isbl() {
  * (which is relatively constant, within 3-5 seconds usually).
  */
 void update_kalman_matrices(KalmanFilter* kf_combined, KalmanFilter* kf_isbl, float32_t dt) {
-    // Update F matrix for all KalmanFilters
-    // Assuming F is a 6x6 matrix for all filters
-    kf_combined->F_data[3] = dt;
-    kf_combined->F_data[10] = dt;
-    kf_combined->F_data[17] = dt;
+  // Update F matrix for all KalmanFilters
+  // Assuming F is a 6x6 matrix for all filters
+  kf_combined->F_data[3] = dt;
+  kf_combined->F_data[10] = dt;
+  kf_combined->F_data[17] = dt;
 
-    kf_isbl->F_data[3] = dt;
-    kf_isbl->F_data[10] = dt;
-    kf_isbl->F_data[17] = dt;
+  kf_isbl->F_data[3] = dt;
+  kf_isbl->F_data[10] = dt;
+  kf_isbl->F_data[17] = dt;
 
-    // Update H matrix for combined KF (6x6)
-    kf_combined->H_data[21] = dt;
-    kf_combined->H_data[28] = dt;
-    kf_combined->H_data[35] = dt;
+  // Update H matrix for combined KF (6x6)
+  kf_combined->H_data[21] = dt;
+  kf_combined->H_data[28] = dt;
+  kf_combined->H_data[35] = dt;
 
-    // No update needed for ISBL KF H matrix
+  // No update needed for ISBL KF H matrix
 }
 
 /**********************************************************************************
