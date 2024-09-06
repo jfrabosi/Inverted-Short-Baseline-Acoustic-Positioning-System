@@ -215,20 +215,33 @@ void setup()
 
   // --- DEMONSTRATIONS ---
 
-  // // minmax demonstration
-  // hx_demo.demoMov_MinMaxAllAxis();
-  // delay(1000);
+  // minmax demonstration
+  hx_demo.demoMov_MinMaxAllAxis();
+  delay(1000);
 
-  // // circle demonstration
-  // float cir_radius = 11.25;
-  // platform_t circle_coords[] = {0, 0, 0, cir_radius, 0, 0};
-  // moveSlowly(&home_coords[0], &circle_coords[0], 25, binaryToDecimal(1111));
-  // hx_demo.demoMov_circles(3, cir_radius);
-  // moveSlowly(&circle_coords[0], &home_coords[0], 25, binaryToDecimal(1111));
-  // delay(1000);
+  // turn off the LED and wait for a button press before entering the main loop
+  digitalWrite(LED, LOW);
+  while (!digitalRead(BUTTON)){}
+  digitalWrite(LED, HIGH);
+  delay(1000);
+
+  // circle demonstration
+  float cir_radius = 15;
+  platform_t circle_coords[] = {0, 0, 0, radians(cir_radius), 0, 0};
+  moveSlowly(&home_coords[0], &circle_coords[0], 25, binaryToDecimal(1111));
+  hx_demo.demoMov_circles(1, cir_radius);
+  moveSlowly(&circle_coords[0], &home_coords[0], 25, binaryToDecimal(1111));
+  delay(1000);
+  
+  // turn off the LED and wait for a button press before entering the main loop
+  digitalWrite(LED, LOW);
+  while (!digitalRead(BUTTON)){}
+  digitalWrite(LED, HIGH);
+  delay(1000);
+
 
   // // active transmitter tracking demonstration (BLOCKING FUNCTION)
-  // hx_demo.lookAtTX()
+  // hx_demo.lookAtTX();
   
 }
 

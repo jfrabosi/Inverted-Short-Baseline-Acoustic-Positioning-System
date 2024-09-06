@@ -139,13 +139,13 @@ void Hexapod_Demo::demoMov_MinMaxAllAxis()
         }
 
         // modify the max step size for different movements - need more steps when switching between axes
-        uint16_t max_step = 20;
+        uint16_t max_step = 10;
         if ((cnt % COUNT_OF(coords) == 6) or (cnt % COUNT_OF(coords) == 8) or (cnt % COUNT_OF(coords) == 9) or (cnt % COUNT_OF(coords) == 11) or (cnt % COUNT_OF(coords) == 12) or (cnt % COUNT_OF(coords) == 14)) {
-            max_step = 60;
+            max_step = 30;
         }
         
         if ((cnt % COUNT_OF(coords) == 7) or (cnt % COUNT_OF(coords) == 10) or (cnt % COUNT_OF(coords) == 13)) {
-            max_step = 120;
+            max_step = 60;
         }
 
         Serial.print("cnt = ");
@@ -273,20 +273,25 @@ void Hexapod_Demo::demoMov_circles(uint8_t nb_turn = 1, float radius_deg = 11.25
 void Hexapod_Demo::lookAtTX()
 {
     platform_t current_pos, new_pos;
+    Serial.println("txx!");
     while (true){
 
         // read the last datapoint from the iSBL
         while (!SerialPort.available());
+        Serial.println("new!");
         String receivedString = readSerialString();
         float x_kf, y_kf, z_kf, x_r_isbl, y_r_isbl, z_r_isbl, x_isbl, y_isbl, z_isbl, stm_roll, stm_pitch, stm_yaw;
         sscanf(receivedString.c_str(), "%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f", 
                 &x_kf, &y_kf, &z_kf, &x_r_isbl, &y_r_isbl, &z_r_isbl, 
                 &x_isbl, &y_isbl, &z_isbl, &stm_roll, &stm_pitch, &stm_yaw);
 
+        Serial.println(stm_pitch);
         // calculate the angle to move the Fo-SHIP to point the iSBL array at the transmitter
         float pitch, yaw;
         pitch = atan2f(z_isbl, x_isbl);
         yaw = atan2f(y_isbl, x_isbl);
+        Serial.println(degrees(pitch));
+        Serial.println(degrees(yaw));
         new_pos.hx_b += pitch/4;
         new_pos.hx_c += yaw/4;
         moveSlowly(&current_pos, &new_pos, 14, binaryToDecimal(1111));
