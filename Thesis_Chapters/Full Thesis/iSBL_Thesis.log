@@ -1,0 +1,2877 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.10)  6 SEP 2024 15:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./iSBL_Thesis.tex
+(iSBL_Thesis.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(ucthesisCP.cls
+Document Class: ucthesisCP 1996/06/26 JTW's modification of 1994/10/31 v3.0 Uni
+versity of California Thesis Class
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/ccicons\ccicons.sty
+Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.tex))
+\XKV@depth=\count187
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))) (uct11.clo)
+\descriptionmargin=\dimen140
+\c@part=\count188
+\c@chapter=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count195
+\c@table=\count196
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/breakurl\breakurl.sty
+Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+
+Package breakurl Warning: You are using breakurl while processing via pdflatex.
+
+(breakurl)                \burl will be just a synonym of \url.
+(breakurl)                 on input line 48.
+
+) (C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count197
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count198
+)
+\@linkdim=\dimen143
+\Hy@linkcounter=\count199
+\Hy@pagecounter=\count266
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count267
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `plainpages' set `false' on input line 4064.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4064.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4064.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4064.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4064.
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count268
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen144
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count269
+\Field@Width=\dimen145
+\Fld@charsize=\dimen146
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring ON on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count270
+\c@Item=\count271
+\c@Hfootnote=\count272
+)
+Package hyperref Info: Driver: hpdftex.
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count273
+\c@bookmark@seq@number=\count274
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip50
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen147
+))
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen148
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count275
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count276
+\leftroot@=\count277
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count278
+\DOTSCASE@=\count279
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen149
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count280
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count281
+\dotsspace@=\muskip17
+\c@parentequation=\count282
+\dspbrk@lvl=\count283
+\tag@help=\toks21
+\row@=\count284
+\column@=\count285
+\maxfields@=\count286
+\andhelp@=\toks22
+\eqnshift@=\dimen150
+\alignsep@=\dimen151
+\tagshift@=\dimen152
+\tagwidth@=\dimen153
+\totwidth@=\dimen154
+\lineht@=\dimen155
+\@envbody=\toks23
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count287
+\calc@Bcount=\count288
+\calc@Adimen=\dimen156
+\calc@Bdimen=\dimen157
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count289
+\calc@Cskip=\skip56
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count290
+\l_MT_multwidth_dim=\dimen158
+\origjot=\skip57
+\l_MT_shortvdotswithinadjustabove_dim=\dimen159
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen160
+\l_MT_above_intertext_sep=\dimen161
+\l_MT_below_intertext_sep=\dimen162
+\l_MT_above_shortintertext_sep=\dimen163
+\l_MT_below_shortintertext_sep=\dimen164
+\xmathstrut@box=\box53
+\xmathstrut@dim=\dimen165
+) (C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count291
+\Gm@cntv=\count292
+\c@Gm@tempcnt=\count293
+\Gm@bindingoffset=\dimen166
+\Gm@wd@mp=\dimen167
+\Gm@odd@mp=\dimen168
+\Gm@even@mp=\dimen169
+\Gm@layoutwidth=\dimen170
+\Gm@layoutheight=\dimen171
+\Gm@layouthoffset=\dimen172
+\Gm@layoutvoffset=\dimen173
+\Gm@dimlist=\toks25
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
+Package: textcase 2023/07/27 v1.04 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.st
+y
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+ (C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count294
+\float@exts=\toks28
+\float@box=\box54
+\@float@everytoks=\toks29
+\@floatcapt=\box55
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks30
+\c@algorithm=\count295
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudoc
+ode.sty
+Package: algpseudocode 
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmi
+cx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count296
+\c@ALG@rem=\count297
+\c@ALG@nested=\count298
+\ALG@tlm=\skip58
+\ALG@thistlm=\skip59
+\c@ALG@Lnr=\count299
+\c@ALG@blocknr=\count300
+\c@ALG@storecount=\count301
+\c@ALG@tmpcounter=\count302
+\ALG@tmplength=\skip60
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count303
+\U@D=\dimen174
+\l@unhyphenated=\language79
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count304
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+))
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen175
+\ar@mcellbox=\box56
+\extrarowheight=\dimen176
+\NC@list=\toks31
+\extratabsurround=\skip61
+\backup@length=\skip62
+\ar@cellbox=\box57
+)
+\rotheadsize=\dimen177
+\c@nlinenum=\count305
+\TeXr@lab=\toks32
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count306
+\lst@gtempboxa=\box58
+\lst@token=\toks33
+\lst@length=\count307
+\lst@currlwidth=\dimen178
+\lst@column=\count308
+\lst@pos=\count309
+\lst@lostspace=\dimen179
+\lst@width=\dimen180
+\lst@newlines=\count310
+\lst@lineno=\count311
+\lst@maxwidth=\dimen181
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count312
+\lst@skipnumbers=\count313
+\lst@framebox=\box59
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box60
+\beforetitleunit=\skip63
+\aftertitleunit=\skip64
+\ttl@plus=\dimen182
+\ttl@minus=\dimen183
+\ttl@toksa=\toks34
+\titlewidth=\dimen184
+\titlewidthlast=\dimen185
+\titlewidthfirst=\dimen186
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `algorithmicx' support loaded on input line 3120.
+Package cleveref Info: `listings' support loaded on input line 3131.
+Package cleveref Info: always capitalise cross-reference names on input line 78
+25.
+Package cleveref Info: always capitalise cross-reference names on input line 78
+52.
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/nowidow\nowidow.sty
+Package: nowidow 2011/09/20 1.0 Easily prevent widows and orphans
+Package: nowidow 
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul-ori.sty
+Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
+\SOUL@word=\toks35
+\SOUL@lasttoken=\toks36
+\SOUL@syllable=\toks37
+\SOUL@cmds=\toks38
+\SOUL@buffer=\toks39
+\SOUL@token=\toks40
+\SOUL@syllgoal=\dimen187
+\SOUL@syllwidth=\dimen188
+\SOUL@charkern=\dimen189
+\SOUL@hyphkern=\dimen190
+\SOUL@dimen=\dimen191
+\SOUL@dimeni=\dimen192
+\SOUL@minus=\count314
+\SOUL@comma=\count315
+\SOUL@apo=\count316
+\SOUL@grave=\count317
+\SOUL@spaceskip=\skip65
+\SOUL@ttwidth=\dimen193
+\SOUL@uldp=\dimen194
+\SOUL@ulht=\dimen195
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/notoccite\notoccite.sty
+Package: notoccite 2000/07/20
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfrac\xfrac.
+sty (C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-01-04 L3 programming layer (loader) 
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count318
+\l__pdf_internal_box=\box61
+))
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xtemplate\xt
+emplate.sty
+Package: xtemplate 2023-10-10 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen196
+\l__xtemplate_tmp_int=\count319
+\l__xtemplate_tmp_muskip=\muskip18
+\l__xtemplate_tmp_skip=\skip66
+)
+Package: xfrac 2023-10-10 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box62
+\l__xfrac_tmp_box=\box63
+\l__xfrac_denominator_bot_sep_dim=\dimen197
+\l__xfrac_numerator_bot_sep_dim=\dimen198
+\l__xfrac_numerator_top_sep_dim=\dimen199
+\l__xfrac_slash_left_sep_dim=\dimen256
+\l__xfrac_slash_right_sep_dim=\dimen257
+\l__xfrac_slash_left_muskip=\muskip19
+\l__xfrac_slash_right_muskip=\muskip20
+
+Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
+(xtemplate)             line 80.
+
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks41
+\labelindent=\skip67
+\enit@outerparindent=\dimen258
+\enit@toks=\toks42
+\enit@inbox=\box64
+\enit@count@id=\count320
+\enitdp@description=\count321
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (iSBL_Thesis.aux
+
+LaTeX Warning: Label `eq:compf' multiply defined.
+
+
+LaTeX Warning: Label `eq:compf@cref' multiply defined.
+
+)
+\openout1 = `iSBL_Thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count322
+\scratchdimen=\dimen259
+\scratchbox=\box65
+\nofMPsegments=\count323
+\nofMParguments=\count324
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count325
+\MPscratchDim=\dimen260
+\MPnumerator=\count326
+\makeMPintoPDFobject=\count327
+\everyMPtoPDFconversion=\toks44
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring ON on input line 105.
+ (iSBL_Thesis.out) (iSBL_Thesis.out)
+\@outlinefile=\write3
+\openout3 = `iSBL_Thesis.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.62001pt
+* \textheight=650.43001pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=0.0pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count328
+[1
+
+{C:/Users/frabb/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
+(Font)              scaled to size 12.0pt on input line 122.
+ [2]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 124
+.
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 124
+.
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+[3] [4] [5] (iSBL_Thesis.toc [6
+
+] [7])
+\tf@toc=\write4
+\openout4 = `iSBL_Thesis.toc'.
+
+ [8] (iSBL_Thesis.lot)
+\tf@lot=\write5
+\openout5 = `iSBL_Thesis.lot'.
+
+ [9
+
+]
+(iSBL_Thesis.lof [10
+
+] [11] [12])
+\tf@lof=\write6
+\openout6 = `iSBL_Thesis.lof'.
+
+ [13]
+Chapter 1.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.193 T
+       his chapter serves as an introduction to the thesis, detailing the in...
+[1
+
+] [2]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/upstable.jpg, id=859, 1225.57875pt x 609.77812pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/upstable.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/upstable.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/upstable.jpg  used on input line 207.
+(pdftex.def)             Requested size: 433.62001pt x 215.74234pt.
+ [3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.216 
+       <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesi
+s/Chapters/Images/upstable.jpg>] [4]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/underwaterimp.jpg, id=876, 1068.24094pt x 603.75563pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/underwaterimp.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/underwaterimp.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/underwaterimp.jpg  used on input line 228.
+(pdftex.def)             Requested size: 433.62001pt x 245.07243pt.
+ [5] [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.254 \chapter
+              {Ground-Truth Positioning System} \label{chap:2c} <C:/Users/frabb
+/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/unde
+rwaterimp.jpg>]
+Chapter 2.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/nasassp.jpg, id=894, 250.68657pt x 658.71094pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/nasassp.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/nasassp.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/nasassp.jpg  used on input line 264.
+(pdftex.def)             Requested size: 216.81pt x 569.72687pt.
+[7
+
+] [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.271 
+       <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesi
+s/Chapters/Images/nasassp.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/goughplatform.jpg, id=906, 234.1247pt x 295.1025pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/goughplatform.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/goughplatform.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/goughplatform.jpg  used on input line 274.
+(pdftex.def)             Requested size: 216.81pt x 273.29424pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/stewartOG.jpg, id=910, 365.11406pt x 295.1025pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/stewartOG.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/stewartOG.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/stewartOG.jpg  used on input line 284.
+(pdftex.def)             Requested size: 216.81pt x 175.23468pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/cappelplatform.jpg, id=914, 246.9225pt x 292.84406pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/cappelplatform.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/cappelplatform.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/cappelplatform.jpg  used on input line 293.
+(pdftex.def)             Requested size: 216.81pt x 257.12714pt.
+ [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.300 \subsection{Reinforcement Learning Research}
+                                                   \label{ssec:2s1s2} <C:/Users
+/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapters/Image
+s/goughplatform.jpg>] [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.300 \subsection{Reinforcement Learning Research}
+                                                   \label{ssec:2s1s2}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.300 \subsection{Reinforcement Learning Research}
+                                                   \label{ssec:2s1s2} <C:/Users
+/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapters/Image
+s/stewartOG.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOL
+Y/000Thesis/Chapters/Images/cappelplatform.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/deepRL.jpg, id=927, 334.24875pt x 295.85532pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/deepRL.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/deepRL.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/deepRL.jpg  used on input line 305.
+(pdftex.def)             Requested size: 216.81pt x 191.91092pt.
+ [11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.312 T
+       he reinforcement learning attempt ultimately did not succeed due to e...
+ <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chap
+ters/Images/deepRL.jpg>] [12] [13]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/nicplatform.jpg, id=955, 275.52937pt x 304.88907pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/nicplatform.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/nicplatform.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/nicplatform.jpg  used on input line 383.
+(pdftex.def)             Requested size: 216.81pt x 239.91997pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/nicplatform2.jpg, id=957, 583.42969pt x 258.9675pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/nicplatform2.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/nicplatform2.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/nicplatform2.jpg  used on input line 390.
+(pdftex.def)             Requested size: 433.62001pt x 192.47855pt.
+ [14
+pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.396 
+      ] [15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.396 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.396 
+       <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesi
+s/Chapters/Images/nicplatform.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Document
+s (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/nicplatform2.jpg>]
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
+97.
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
+97.
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/firstbase.jpg, id=975, 246.1697pt x 200.24812pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/firstbase.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/firstbase.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/firstbase.jpg  used on input line 401.
+(pdftex.def)             Requested size: 216.81pt x 176.37166pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/secondbase.jpg, id=976, 249.93375pt x 197.98969pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/secondbase.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/secondbase.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/secondbase.jpg  used on input line 408.
+(pdftex.def)             Requested size: 216.81pt x 171.75719pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/thirdbase.jpg, id=977, 249.18094pt x 207.02344pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/thirdbase.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/thirdbase.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/thirdbase.jpg  used on input line 415.
+(pdftex.def)             Requested size: 216.81pt x 180.13419pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/midbase.jpg, id=978, 247.67531pt x 202.50656pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/midbase.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/midbase.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/midbase.jpg  used on input line 422.
+(pdftex.def)             Requested size: 216.81pt x 177.27003pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/endplate.jpg, id=979, 255.95625pt x 219.82124pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/endplate.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/endplate.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/endplate.jpg  used on input line 429.
+(pdftex.def)             Requested size: 216.81pt x 186.20157pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/secondplatstack.jpg, id=980, 210.7875pt x 297.36093pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/secondplatstack.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/secondplatstack.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/secondplatstack.jpg  used on input line 436.
+
+(pdftex.def)             Requested size: 216.81pt x 305.8632pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/rawpca.jpg, id=983, 273.27094pt x 227.34938pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/rawpca.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/rawpca.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/rawpca.jpg  used on input line 445.
+(pdftex.def)             Requested size: 216.81pt x 180.37764pt.
+
+[16{C:/Users/frabb/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.509 \end{table}
+                  <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPO
+LY/000Thesis/Chapters/Images/firstbase.jpg>] [17
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.509 \end{table}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.509 \end{table}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.11})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.509 \end{table}
+                  <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPO
+LY/000Thesis/Chapters/Images/secondbase.jpg> <C:/Users/frabb/OneDrive - Cal Pol
+y/Documents (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/thirdbase.jpg> <C:/User
+s/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapters/Imag
+es/midbase.jpg>] [18
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.12})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.509 \end{table}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.13})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.509 \end{table}
+                  <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPO
+LY/000Thesis/Chapters/Images/endplate.jpg> <C:/Users/frabb/OneDrive - Cal Poly/
+Documents (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/secondplatstack.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/hexparams.jpg, id=1004, 534.49687pt x 755.07094pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/hexparams.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/hexparams.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/hexparams.jpg  used on input line 545.
+(pdftex.def)             Requested size: 390.25536pt x 551.32394pt.
+
+[19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.14})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.555 
+       <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesi
+s/Chapters/Images/rawpca.jpg>] [20
+pdfTeX warning (ext4): destination with the same identifier (name{table.2.2}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.555 
+      ] [21
+pdfTeX warning (ext4): destination with the same identifier (name{table.2.3}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.555 
+      ] [22
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.15})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.555 
+       <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesi
+s/Chapters/Images/hexparams.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/servotiming.jpg, id=1025, 542.77782pt x 344.03531pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/servotiming.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/servotiming.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/servotiming.jpg  used on input line 558.
+(pdftex.def)             Requested size: 390.25536pt x 247.36926pt.
+ [23
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.16})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.566 
+       <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesi
+s/Chapters/Images/servotiming.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/i2cwiring.jpg, id=1033, 587.94656pt x 240.9pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/i2cwiring.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/i2cwiring.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/i2cwiring.jpg  used on input line 569.
+(pdftex.def)             Requested size: 390.25536pt x 159.89873pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/foshipwiring.jpg, id=1036, 581.92406pt x 531.48563pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/foshipwiring.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/foshipwiring.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/foshipwiring.jpg  used on input line 578.
+(pdftex.def)             Requested size: 390.25536pt x 356.43413pt.
+ [24
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.17})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.587 
+       <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesi
+s/Chapters/Images/i2cwiring.jpg>] [25
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.18})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.587 
+       <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesi
+s/Chapters/Images/foshipwiring.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/woodenbase.jpg, id=1048, 350.81062pt x 277.78781pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/woodenbase.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/woodenbase.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/woodenbase.jpg  used on input line 590.
+(pdftex.def)             Requested size: 303.53267pt x 240.3679pt.
+ [26
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.19})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.598 
+       <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesi
+s/Chapters/Images/woodenbase.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/firsttwoplat.jpg, id=1054, 518.6878pt x 735.49782pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/firsttwoplat.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/firsttwoplat.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/firsttwoplat.jpg  used on input line 605.
+(pdftex.def)             Requested size: 390.25536pt x 553.40643pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/fullplats.jpg, id=1057, 601.4972pt x 926.71219pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/fullplats.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/fullplats.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/fullplats.jpg  used on input line 616.
+(pdftex.def)             Requested size: 346.89732pt x 534.46739pt.
+ [27] [28
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.20})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.624 
+       <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesi
+s/Chapters/Images/firsttwoplat.jpg>] [29
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.21})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.624 
+       <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesi
+s/Chapters/Images/fullplats.jpg>]
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+)
+[30] [31] [32]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/foshipfsm.jpg, id=1119, 570.63188pt x 292.84406pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/foshipfsm.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/foshipfsm.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/foshipfsm.jpg  used on input line 711.
+(pdftex.def)             Requested size: 433.62001pt x 222.53252pt.
+ [33
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.22})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.729 
+       <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesi
+s/Chapters/Images/foshipfsm.jpg>] [34] [35] [36] [37] [38]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/forwardkine.jpg, id=1305, 523.9575pt x 749.80125pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/forwardkine.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/forwardkine.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/forwardkine.jpg  used on input line 956.
+(pdftex.def)             Requested size: 390.25536pt x 558.4825pt.
+ [39] [40
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.23})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.962 
+       <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesi
+s/Chapters/Images/forwardkine.jpg>] [41] [42] [43] [44] [45] [46] [47]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/gaugedrawing.jpg, id=1526, 456.20438pt x 342.5297pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/gaugedrawing.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/gaugedrawing.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/gaugedrawing.jpg  used on input line 1252.
+(pdftex.def)             Requested size: 346.89732pt x 260.46638pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/mill.jpg, id=1527, 456.95718pt x 342.5297pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/mill.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/mill.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/mill.jpg  used on input line 1259.
+(pdftex.def)             Requested size: 346.89732pt x 260.03781pt.
+ [48
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.24})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1267 	\item S
+               et all platforms to a setpoint (0, 0, 10, 0, 0, 0) where all ...
+ <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chap
+ters/Images/gaugedrawing.jpg>] [49
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.25})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1276 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/mill.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/misalign.jpg, id=1547, 306.39468pt x 255.95625pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/misalign.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/misalign.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/misalign.jpg  used on input line 1279.
+(pdftex.def)             Requested size: 390.25536pt x 326.02939pt.
+ [50
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.26})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1292 \end{equation}
+                      <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 C
+ALPOLY/000Thesis/Chapters/Images/misalign.jpg>] [51] [52
+pdfTeX warning (ext4): destination with the same identifier (name{table.2.4}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1373 
+       ] [53]
+Chapter 3.
+[54
+
+]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/trieste.jpg, id=1601, 1083.29718pt x 874.76813pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/trieste.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/trieste.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/trieste.jpg  used on input line 1397.
+(pdftex.def)             Requested size: 216.81pt x 175.07065pt.
+ [55
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1404 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/trieste.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/lbldiagram.jpg, id=1611, 494.59781pt x 331.2375pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/lbldiagram.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/lbldiagram.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/lbldiagram.jpg  used on input line 1409.
+(pdftex.def)             Requested size: 216.81pt x 145.19908pt.
+ [56
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1415 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/lbldiagram.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/usbldiagram.jpg, id=1620, 489.32813pt x 317.68687pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/usbldiagram.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/usbldiagram.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/usbldiagram.jpg  used on input line 1418.
+(pdftex.def)             Requested size: 216.81pt x 140.76184pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/sbldiagram.jpg, id=1624, 377.15906pt x 293.59688pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/sbldiagram.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/sbldiagram.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/sbldiagram.jpg  used on input line 1427.
+(pdftex.def)             Requested size: 216.81pt x 168.77208pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/iusblukf.jpg, id=1629, 297.36093pt x 269.50688pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/iusblukf.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/iusblukf.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/iusblukf.jpg  used on input line 1436.
+(pdftex.def)             Requested size: 260.17465pt x 235.81381pt.
+ [57
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1439 \end{figure}
+                    <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CAL
+POLY/000Thesis/Chapters/Images/usbldiagram.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/ilbl.jpg, id=1636, 983.92593pt x 595.47469pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/ilbl.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/ilbl.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/ilbl.jpg  used on input line 1445.
+(pdftex.def)             Requested size: 281.85036pt x 170.57523pt.
+ [58
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1448 \end{figure}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1448 \end{figure}
+                    <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CAL
+POLY/000Thesis/Chapters/Images/sbldiagram.jpg> <C:/Users/frabb/OneDrive - Cal P
+oly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/iusblukf.jpg>]
+[59
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1455 T
+        he four most relevant implementations are as follows. Alcocer, Olive...
+ <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chap
+ters/Images/ilbl.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/isblnaked.jpg, id=1657, 536.75531pt x 628.59843pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/isblnaked.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/isblnaked.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/isblnaked.jpg  used on input line 1464.
+(pdftex.def)             Requested size: 216.81pt x 253.90955pt.
+ [60]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/partarray.jpg, id=1669, 871.75688pt x 388.45125pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/partarray.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/partarray.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/partarray.jpg  used on input line 1473.
+(pdftex.def)             Requested size: 303.53267pt x 135.24869pt.
+ [61
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1479 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1479 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/isblnaked.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Documents
+ (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/partarray.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/sidearray.jpg, id=1675, 702.37407pt x 182.18062pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/sidearray.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/sidearray.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/sidearray.jpg  used on input line 1482.
+(pdftex.def)             Requested size: 433.62001pt x 112.47545pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/sliceradapter.jpg, id=1677, 716.6775pt x 566.115pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/sliceradapter.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/sliceradapter.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/sliceradapter.jpg  used on input line 1491.
+(pdftex.def)             Requested size: 260.17465pt x 205.52025pt.
+ [62
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1500 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/sidearray.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/stm144.jpg, id=1687, 522.45187pt x 905.63344pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/stm144.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/stm144.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/stm144.jpg  used on input line 1503.
+(pdftex.def)             Requested size: 108.405pt x 187.90852pt.
+ [63
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1509 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1509 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/sliceradapter.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Docum
+ents (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/stm144.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/stmwiring.jpg, id=1695, 1105.12875pt x 706.89093pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/stmwiring.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/stmwiring.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/stmwiring.jpg  used on input line 1512.
+(pdftex.def)             Requested size: 433.62001pt x 277.35823pt.
+ [64
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1522 	\item T
+               he above-water frequency should be similar to the planned und...
+ <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chap
+ters/Images/stmwiring.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/attenuation.jpg, id=1702, 444.15938pt x 507.39563pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/attenuation.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/attenuation.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/attenuation.jpg  used on input line 1531.
+(pdftex.def)             Requested size: 281.85036pt x 321.97586pt.
+ [65
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1538 	\item A
+               mplify the output voltage of the receiver elements to a suffi...
+ <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chap
+ters/Images/attenuation.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/abpfws.jpg, id=1711, 500.62032pt x 382.42876pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/abpfws.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/abpfws.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/abpfws.jpg  used on input line 1552.
+(pdftex.def)             Requested size: 346.89732pt x 265.00818pt.
+ [66]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/abpfcircuit.jpg, id=1722, 1147.28625pt x 462.97969pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/abpfcircuit.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/abpfcircuit.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/abpfcircuit.jpg  used on input line 1563.
+(pdftex.def)             Requested size: 433.62001pt x 174.9804pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/ltspice.jpg, id=1725, 935.74594pt x 420.82219pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/ltspice.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/ltspice.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/ltspice.jpg  used on input line 1572.
+(pdftex.def)             Requested size: 433.62001pt x 195.00606pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/usrsens.jpg, id=1726, 459.96844pt x 266.49562pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/usrsens.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/usrsens.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/usrsens.jpg  used on input line 1579.
+(pdftex.def)             Requested size: 260.17465pt x 150.74922pt.
+ [67
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1585 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/abpfws.jpg>] [68
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.15})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1585 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.16})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1585 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/abpfcircuit.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Documen
+ts (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/ltspice.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/abpfeagleREAL.jpg, id=1739, 1289.56781pt x 420.82219pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/abpfeagleREAL.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/abpfeagleREAL.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/abpfeagleREAL.jpg  used on input line 1588.
+(pdftex.def)             Requested size: 303.53267pt x 99.04733pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/abpfeagle.jpg, id=1740, 1909.88531pt x 520.19344pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/abpfeagle.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/abpfeagle.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/abpfeagle.jpg  used on input line 1595.
+(pdftex.def)             Requested size: 303.53267pt x 82.66908pt.
+ [69
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.17})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1603 F
+        irst, the PCBs were assembled. After being delivered from Mouser, th...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.18})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1603 F
+        irst, the PCBs were assembled. After being delivered from Mouser, th...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.19})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1603 F
+        irst, the PCBs were assembled. After being delivered from Mouser, th...
+ <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chap
+ters/Images/usrsens.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/
+0 CALPOLY/000Thesis/Chapters/Images/abpfeagleREAL.jpg> <C:/Users/frabb/OneDrive
+ - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/abpfeagle.jpg
+>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/abpfboard.jpg, id=1748, 691.08188pt x 210.7875pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/abpfboard.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/abpfboard.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/abpfboard.jpg  used on input line 1607.
+(pdftex.def)             Requested size: 303.53267pt x 92.58275pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/abpfmanu.jpg, id=1749, 1034.36438pt x 891.33pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/abpfmanu.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/abpfmanu.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/abpfmanu.jpg  used on input line 1614.
+(pdftex.def)             Requested size: 251.5004pt x 216.71169pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/abpffinished.jpg, id=1750, 759.58781pt x 592.46344pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/abpffinished.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/abpffinished.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/abpffinished.jpg  used on input line 1621.
+(pdftex.def)             Requested size: 251.5004pt x 196.16443pt.
+ [70
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.20})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1627 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.21})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1627 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/abpfboard.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Documents
+ (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/abpfmanu.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/breadboardstm.jpg, id=1756, 706.89093pt x 592.46344pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/breadboardstm.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/breadboardstm.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/breadboardstm.jpg  used on input line 1630.
+(pdftex.def)             Requested size: 238.49232pt x 199.88902pt.
+ [71
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.22})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1636 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.23})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1636 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/abpffinished.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Docume
+nts (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/breadboardstm.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/isblfront.jpg, id=1762, 548.0475pt x 549.55313pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/isblfront.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/isblfront.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/isblfront.jpg  used on input line 1641.
+(pdftex.def)             Requested size: 433.62001pt x 434.82144pt.
+ [72]
+[73
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.24})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1653 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/isblfront.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/matlab.jpg, id=1775, 1174.3875pt x 495.35063pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/matlab.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/matlab.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/matlab.jpg  used on input line 1660.
+(pdftex.def)             Requested size: 433.62001pt x 182.89894pt.
+ [74]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/txnine.jpg, id=1782, 683.55376pt x 644.4075pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/txnine.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/txnine.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/txnine.jpg  used on input line 1669.
+(pdftex.def)             Requested size: 281.85036pt x 265.71321pt.
+ [75
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.25})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1677 O
+        riginally, a planned component of this thesis was to transmit GPS da...
+ <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chap
+ters/Images/matlab.jpg>] [76
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.26})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1688 	
+        message_string[14-i] = (message_int >> (i-1)) & 1; <C:/Users/frabb/OneD
+rive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/txnine.jp
+g>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/activedamping.jpg, id=1802, 804.75656pt x 296.60812pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/activedamping.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/activedamping.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/activedamping.jpg  used on input line 1705.
+(pdftex.def)             Requested size: 433.62001pt x 159.8175pt.
+ [77
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.27})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1712 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/activedamping.jpg>] [78
+pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1744 	
+        1,	]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/modwave.jpg, id=1832, 547.2947pt x 408.02437pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/modwave.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/modwave.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/modwave.jpg  used on input line 1780.
+(pdftex.def)             Requested size: 325.215pt x 242.45688pt.
+ [79]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/oscope11110001.jpg, id=1881, 532.23843pt x 398.23781pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/oscope11110001.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/oscope11110001.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/oscope11110001.jpg  used on input line 1819.
+
+(pdftex.def)             Requested size: 325.215pt x 243.344pt.
+ [80
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.28})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1826 \section{Recording an Audio Pulse}
+                                          \label{sec:3s7} <C:/Users/frabb/OneDr
+ive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/modwave.jp
+g>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/isblfsm.jpg, id=1901, 1109.64563pt x 697.10437pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/isblfsm.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/isblfsm.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/isblfsm.jpg  used on input line 1834.
+(pdftex.def)             Requested size: 433.62001pt x 272.4121pt.
+ [81
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.29})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1840 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/oscope11110001.jpg>] [82
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.30})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1840 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/isblfsm.jpg>] [83] [84]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/adctimingsingle.jpg, id=1933, 498.36188pt x 154.32657pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/adctimingsingle.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/adctimingsingle.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/adctimingsingle.jpg  used on input line 1862
+.
+(pdftex.def)             Requested size: 433.62001pt x 134.28185pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/adctimingmulti.jpg, id=1937, 302.63063pt x 118.94438pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/adctimingmulti.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/adctimingmulti.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/adctimingmulti.jpg  used on input line 1871.
+
+(pdftex.def)             Requested size: 325.215pt x 127.82277pt.
+ [85
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.31})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1879 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/adctimingsingle.jpg>] [86
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.32})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1897 	
+        mic0_mean += (float)adc1conv(trig_buf[i]); <C:/Users/frabb/OneDrive - C
+al Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/adctimingmulti.jp
+g>] [87] [88] [89]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/oscope4.jpg, id=2062, 634.62094pt x 466.74374pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/oscope4.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/oscope4.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/oscope4.jpg  used on input line 2043.
+(pdftex.def)             Requested size: 325.215pt x 239.18991pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/adc4.jpg, id=2063, 371.88937pt x 468.24937pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/adc4.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/adc4.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/adc4.jpg  used on input line 2050.
+(pdftex.def)             Requested size: 325.215pt x 409.49568pt.
+ [90] [91
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.33})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2068 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/oscope4.jpg>] [92
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.34})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2068 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/adc4.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/convxn.jpg, id=2120, 619.56468pt x 197.23688pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/convxn.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/convxn.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/convxn.jpg  used on input line 2071.
+(pdftex.def)             Requested size: 368.57965pt x 117.33481pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/convexp.jpg, id=2122, 650.43pt x 469.00218pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/convexp.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/convexp.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/convexp.jpg  used on input line 2078.
+(pdftex.def)             Requested size: 411.93768pt x 297.04019pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/convandcross.jpg, id=2124, 636.12656pt x 707.64375pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/convandcross.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/convandcross.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/convandcross.jpg  used on input line 2085.
+(pdftex.def)             Requested size: 281.85036pt x 313.53456pt.
+ [93
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.35})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2091 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.36})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2091 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/convxn.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Documents (C
+loud)/0 CALPOLY/000Thesis/Chapters/Images/convexp.jpg>] [94
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.37})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2091 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/convandcross.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/crosscorrex.jpg, id=2136, 706.89093pt x 607.51968pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/crosscorrex.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/crosscorrex.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/crosscorrex.jpg  used on input line 2094.
+(pdftex.def)             Requested size: 390.25536pt x 335.39757pt.
+ [95
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.38})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2101 T
+        he standard convolution operation is very computationally-expensive ...
+ <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chap
+ters/Images/crosscorrex.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/fftconvtheory.jpg, id=2145, 566.86781pt x 643.6547pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/fftconvtheory.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/fftconvtheory.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/fftconvtheory.jpg  used on input line 2107.
+(pdftex.def)             Requested size: 390.25536pt x 443.13026pt.
+ [96] [97
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.39})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2126 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/fftconvtheory.jpg>] [98] [99]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/matlabcc.jpg, id=2235, 633.11531pt x 558.58687pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/matlabcc.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/matlabcc.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/matlabcc.jpg  used on input line 2230.
+(pdftex.def)             Requested size: 390.25536pt x 344.32582pt.
+ [100] [101
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.40})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2249 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/matlabcc.jpg>] [102] [103]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/anglecorr.jpg, id=2317, 685.8122pt x 307.1475pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/anglecorr.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/anglecorr.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/anglecorr.jpg  used on input line 2322.
+(pdftex.def)             Requested size: 433.62001pt x 194.20694pt.
+ [104
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.41})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2331 	
+        float x, y, z; <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 
+CALPOLY/000Thesis/Chapters/Images/anglecorr.jpg>] [105] [106]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 2435.
+
+Underfull \hbox (badness 1019) in paragraph at lines 2437--2438
+[]\OT1/cmr/m/n/10.95 InitialPosition, Max-It-er-a-tions, Min-Resid-ual, MinSpac
+-ing, Scale-Fac-tor, Ini-
+ []
+
+[107] [108]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/3dhjsmat.jpg, id=2483, 369.63094pt x 651.18282pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/3dhjsmat.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/3dhjsmat.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/3dhjsmat.jpg  used on input line 2493.
+(pdftex.def)             Requested size: 303.53267pt x 534.73846pt.
+ [109] [110
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.42})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2501 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/3dhjsmat.jpg>]
+Overfull \hbox (7.0572pt too wide) in paragraph at lines 2502--2503
+[]\OT1/cmr/m/n/10.95 The ini-tial po-si-tion es-ti-mate is set with the depth m
+ea-sure-ment as the ini-tial X-coordinate,
+ []
+
+[111] [112] [113] [114] [115] [116]
+Chapter 4.
+[117
+
+]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/v2gyro.jpg, id=2715, 462.97969pt x 361.35pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/v2gyro.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/v2gyro.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/v2gyro.jpg  used on input line 2743.
+(pdftex.def)             Requested size: 281.85036pt x 219.98207pt.
+ [118
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2749 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/v2gyro.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/bno055.jpg, id=2724, 674.52pt x 478.03593pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/bno055.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/bno055.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/bno055.jpg  used on input line 2752.
+(pdftex.def)             Requested size: 260.17465pt x 184.39087pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/imucomp.jpg, id=2728, 685.05937pt x 332.74312pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/imucomp.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/imucomp.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/imucomp.jpg  used on input line 2761.
+(pdftex.def)             Requested size: 433.62001pt x 210.61932pt.
+ [119
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2767 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/bno055.jpg>] [120
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2772 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/imucomp.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/mahony.jpg, id=2750, 430.60875pt x 227.34938pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/mahony.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/mahony.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/mahony.jpg  used on input line 2785.
+(pdftex.def)             Requested size: 260.17465pt x 137.36813pt.
+ [121] [122
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2795 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/mahony.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/threecomp.jpg, id=2776, 422.32782pt x 109.1578pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/threecomp.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/threecomp.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/threecomp.jpg  used on input line 2798.
+(pdftex.def)             Requested size: 216.81pt x 56.0395pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/threecomptime.jpg, id=2779, 365.11406pt x 136.25906pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/threecomptime.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/threecomptime.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/threecomptime.jpg  used on input line 2805.
+(pdftex.def)             Requested size: 216.81pt x 80.91193pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/eulermadg.jpg, id=2781, 391.4625pt x 320.69812pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/eulermadg.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/eulermadg.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/eulermadg.jpg  used on input line 2812.
+(pdftex.def)             Requested size: 325.215pt x 266.43872pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/eulermaho.jpg, id=2783, 401.24907pt x 322.95656pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/eulermaho.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/eulermaho.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/eulermaho.jpg  used on input line 2819.
+(pdftex.def)             Requested size: 346.89732pt x 279.23038pt.
+ [123
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2828 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2828 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/threecomp.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Documents
+ (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/threecomptime.jpg>] [124
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2828 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2828 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/eulermadg.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Documents
+ (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/eulermaho.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/theimu.jpg, id=2802, 473.51906pt x 402.75468pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/theimu.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/theimu.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/theimu.jpg  used on input line 2835.
+(pdftex.def)             Requested size: 195.12767pt x 165.96628pt.
+ [125]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/imucoord.jpg, id=2816, 536.75531pt x 626.34pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/imucoord.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/imucoord.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/imucoord.jpg  used on input line 2844.
+(pdftex.def)             Requested size: 303.53267pt x 354.18858pt.
+ [126
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2860 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/theimu.jpg>] [127
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2860 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/imucoord.jpg>] [128] [129]
+Overfull \hbox (16.36249pt too wide) in paragraph at lines 2926--2927
+[]\OT1/cmr/m/n/10.95 The fi-nal func-tion, [][]\OT1/cmtt/m/n/10.95 lis3mdl_read
+_data_drdy_handler()[]\OT1/cmr/m/n/10.95 , reads the mag-netic field strength
+ []
+
+[130] [131] [132] [133]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/angleaxis.jpg, id=2969, 507.39563pt x 302.63063pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/angleaxis.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/angleaxis.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/angleaxis.jpg  used on input line 3044.
+(pdftex.def)             Requested size: 303.53267pt x 181.04411pt.
+ [134] [135
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.11})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3058 \end{equation}
+                      <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 C
+ALPOLY/000Thesis/Chapters/Images/angleaxis.jpg>]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3061.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3061.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3061.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 3061.
+
+Missing character: There is no ° in font cmr10!
+Missing character: There is no ° in font cmr10!
+[136] [137]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/madgblock.jpg, id=3038, 722.7pt x 489.32813pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/madgblock.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/madgblock.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/madgblock.jpg  used on input line 3143.
+(pdftex.def)             Requested size: 433.62001pt x 293.59914pt.
+ [138] [139
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.12})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3152 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/madgblock.jpg>] [140] [141] [142] [143] [144]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/veldrift.jpg, id=3158, 1087.06125pt x 458.46281pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/veldrift.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/veldrift.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/veldrift.jpg  used on input line 3291.
+(pdftex.def)             Requested size: 433.62001pt x 182.87819pt.
+ [145
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.13})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3297 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/veldrift.jpg>] [146] [147]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/1b3.jpg, id=3213, 927.465pt x 474.27188pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/1b3.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/1b3.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/1b3.jpg  used on input line 3376.
+(pdftex.def)             Requested size: 433.62001pt x 221.74269pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/1b2.jpg, id=3214, 930.47626pt x 479.54156pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/1b2.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/1b2.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/1b2.jpg  used on input line 3383.
+(pdftex.def)             Requested size: 433.62001pt x 223.47478pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/1b1.jpg, id=3215, 928.97063pt x 481.04718pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/1b1.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/1b1.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/1b1.jpg  used on input line 3390.
+(pdftex.def)             Requested size: 433.62001pt x 224.54343pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/1b05.jpg, id=3216, 929.72343pt x 479.54156pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/1b05.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/1b05.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/1b05.jpg  used on input line 3397.
+(pdftex.def)             Requested size: 433.62001pt x 223.65039pt.
+ [148] [149
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.14})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3404 \item S
+              tart at zero for all axes
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.15})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3404 \item S
+              tart at zero for all axes <C:/Users/frabb/OneDrive - Cal Poly/Doc
+uments (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/1b3.jpg> <C:/Users/frabb/One
+Drive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/1b2.jpg>
+] [150
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.16})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3404 \item S
+              tart at zero for all axes
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.17})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3404 \item S
+              tart at zero for all axes <C:/Users/frabb/OneDrive - Cal Poly/Doc
+uments (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/1b1.jpg> <C:/Users/frabb/One
+Drive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/1b05.jpg
+>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/2b2.jpg, id=3232, 916.1728pt x 478.78876pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/2b2.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/2b2.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/2b2.jpg  used on input line 3417.
+(pdftex.def)             Requested size: 433.62001pt x 226.60878pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/2b1.jpg, id=3233, 924.45375pt x 478.03593pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/2b1.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/2b1.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/2b1.jpg  used on input line 3424.
+(pdftex.def)             Requested size: 433.62001pt x 224.22467pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/2b05_what.jpg, id=3234, 926.71219pt x 484.81125pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/2b05_what.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/2b05_what.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/2b05_what.jpg  used on input line 3431.
+(pdftex.def)             Requested size: 433.62001pt x 226.84784pt.
+ [151
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.18})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3437 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/2b2.jpg>] [152
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.19})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3437 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.20})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3437 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/2b1.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Documents (Clou
+d)/0 CALPOLY/000Thesis/Chapters/Images/2b05_what.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/1b11.jpg, id=3244, 1128.46594pt x 596.98032pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/1b11.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/1b11.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/1b11.jpg  used on input line 3442.
+(pdftex.def)             Requested size: 433.62001pt x 229.39633pt.
+ [153
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.21})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3448 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/1b11.jpg>] [154
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3519 
+       ] [155
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3530 \chapter
+               {Kalman Filtering} \label{chap:5c}]
+Chapter 5.
+[156
+
+] [157]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/kalmanbd.jpg, id=3291, 984.67876pt x 693.34032pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/kalmanbd.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/kalmanbd.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/kalmanbd.jpg  used on input line 3552.
+(pdftex.def)             Requested size: 433.62001pt x 305.32458pt.
+ [158] [159
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3558 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/kalmanbd.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/airplanediag.jpg, id=3302, 778.40813pt x 409.53pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/airplanediag.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/airplanediag.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/airplanediag.jpg  used on input line 3561.
+(pdftex.def)             Requested size: 433.62001pt x 228.14168pt.
+ [160
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3569 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/airplanediag.jpg>] [161] [162] [163] [164] [165] [166]
+[167]
+Overfull \hbox (3.46802pt too wide) in paragraph at lines 3761--3762
+[]\OT1/cmr/m/n/10.95 Finally, one func-tion was cre-ated to up-date the state t
+ran-si-tion and state-to-measurement
+ []
+
+[168] [169] [170] [171] [172] [173] [174] [175] [176] [177]
+Chapter 6.
+[178
+
+]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/txpos.jpg, id=3713, 775.39688pt x 536.75531pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/txpos.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/txpos.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/txpos.jpg  used on input line 4085.
+(pdftex.def)             Requested size: 433.62001pt x 300.1714pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/testpic.jpg, id=3715, 697.8572pt x 493.0922pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/testpic.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/testpic.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/testpic.jpg  used on input line 4094.
+(pdftex.def)             Requested size: 390.25536pt x 275.74602pt.
+ [179] [180
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4100 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/txpos.jpg>]
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 4
+101.
+
+(C:\Users\frabb\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
+File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 4101.
+
+
+[181
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4102 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/testpic.jpg>] [182]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/d_3_s_nomu.jpg, id=3739, 1340.00626pt x 496.85625pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/d_3_s_nomu.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/d_3_s_nomu.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/d_3_s_nomu.jpg  used on input line 4113.
+(pdftex.def)             Requested size: 433.62001pt x 160.77887pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/d_4_s_nomu.jpg, id=3740, 1346.02875pt x 505.13719pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/d_4_s_nomu.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/d_4_s_nomu.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/d_4_s_nomu.jpg  used on input line 4120.
+(pdftex.def)             Requested size: 433.62001pt x 162.72629pt.
+ [183] [184
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4126 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4126 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/d_3_s_nomu.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Document
+s (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/d_4_s_nomu.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/distvsstd.jpg, id=3750, 715.17188pt x 498.36188pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/distvsstd.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/distvsstd.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/distvsstd.jpg  used on input line 4129.
+(pdftex.def)             Requested size: 368.57965pt x 256.84554pt.
+ [185
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.5}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4138 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/distvsstd.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/d_8_r_nomu.jpg, id=3760, 1344.52313pt x 494.59781pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/d_8_r_nomu.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/d_8_r_nomu.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/d_8_r_nomu.jpg  used on input line 4143.
+(pdftex.def)             Requested size: 433.62001pt x 159.51222pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/d_2_r_nomu.jpg, id=3761, 1342.2647pt x 499.8675pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/d_2_r_nomu.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/d_2_r_nomu.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/d_2_r_nomu.jpg  used on input line 4150.
+(pdftex.def)             Requested size: 433.62001pt x 161.4787pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/yawvsstd.jpg, id=3762, 691.83469pt x 496.85625pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/yawvsstd.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/yawvsstd.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/yawvsstd.jpg  used on input line 4157.
+(pdftex.def)             Requested size: 368.57965pt x 264.70479pt.
+ [186] [187
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.6}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4164 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.7}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4164 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/d_8_r_nomu.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Document
+s (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/d_2_r_nomu.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/d_6_s_nomu.jpg, id=3774, 1336.24219pt x 504.38437pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/d_6_s_nomu.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/d_6_s_nomu.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/d_6_s_nomu.jpg  used on input line 4167.
+(pdftex.def)             Requested size: 433.62001pt x 163.6767pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/d_6_rg_nomu.jpg, id=3775, 1340.00626pt x 499.11469pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/d_6_rg_nomu.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/d_6_rg_nomu.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/d_6_rg_nomu.jpg  used on input line 4174.
+(pdftex.def)             Requested size: 433.62001pt x 161.50967pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/d_all_s.jpg, id=3778, 1340.00626pt x 496.85625pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/d_all_s.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/d_all_s.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/d_all_s.jpg  used on input line 4183.
+(pdftex.def)             Requested size: 433.62001pt x 160.77887pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/d_all_rg_xyzabc.jpg, id=3779, 1343.77031pt x 491.58656pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/d_all_rg_xyzabc.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/d_all_rg_xyzabc.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/d_all_rg_xyzabc.jpg  used on input line 4190
+.
+(pdftex.def)             Requested size: 433.62001pt x 158.63109pt.
+ [188
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.8}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4197 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/yawvsstd.jpg>] [189
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.9}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4197 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.10})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4197 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/d_6_s_nomu.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Document
+s (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/d_6_rg_nomu.jpg>] [190
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.11})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4197 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.12})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4197 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/d_all_s.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Documents (
+Cloud)/0 CALPOLY/000Thesis/Chapters/Images/d_all_rg_xyzabc.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/d_all_r_xyzabc.jpg, id=3794, 1340.75906pt x 501.37312pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/d_all_r_xyzabc.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/d_all_r_xyzabc.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/d_all_r_xyzabc.jpg  used on input line 4200.
+
+(pdftex.def)             Requested size: 411.93768pt x 154.03934pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/d_all_g_xyzabc.jpg, id=3795, 1343.0175pt x 499.8675pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/d_all_g_xyzabc.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/d_all_g_xyzabc.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/d_all_g_xyzabc.jpg  used on input line 4207.
+
+(pdftex.def)             Requested size: 411.93768pt x 153.31743pt.
+ [191
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.13})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4213 
+       
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.14})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4213 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/d_all_r_xyzabc.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Docu
+ments (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/d_all_g_xyzabc.jpg>] [192]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/h_all_rgs.jpg, id=3809, 1116.42094pt x 925.95938pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/h_all_rgs.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/h_all_rgs.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/h_all_rgs.jpg  used on input line 4232.
+(pdftex.def)             Requested size: 433.62001pt x 359.63916pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/h_3_s.jpg, id=3810, 1121.69063pt x 930.47626pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/h_3_s.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/h_3_s.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/h_3_s.jpg  used on input line 4239.
+(pdftex.def)             Requested size: 433.62001pt x 359.68974pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/h_4_s.jpg, id=3811, 1117.17375pt x 925.20656pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/h_4_s.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/h_4_s.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/h_4_s.jpg  used on input line 4246.
+(pdftex.def)             Requested size: 433.62001pt x 359.10677pt.
+
+[193] [194
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.15})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4255 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/h_all_rgs.jpg>] [195
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.16})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4255 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/h_3_s.jpg>] [196
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.17})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4255 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/h_4_s.jpg>]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/datasum1.jpg, id=3832, 767.86874pt x 246.9225pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/datasum1.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/datasum1.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/datasum1.jpg  used on input line 4258.
+(pdftex.def)             Requested size: 433.62001pt x 139.43987pt.
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/datasum2.jpg, id=3833, 767.11594pt x 246.9225pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/datasum2.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/datasum2.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/datasum2.jpg  used on input line 4265.
+(pdftex.def)             Requested size: 433.62001pt x 139.5755pt.
+ [197
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.18})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4272 ...tion{Extrapolation to Underwater Regime}
+                                                   \label{sec:6s3}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.19})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4272 ...tion{Extrapolation to Underwater Regime}
+                                                   \label{sec:6s3} <C:/Users/fr
+abb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/d
+atasum1.jpg> <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/00
+0Thesis/Chapters/Images/datasum2.jpg>] [198] [199]
+<C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapt
+ers/Images/airatten.jpg, id=3860, 514.92375pt x 934.24031pt>
+File: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/
+Chapters/Images/airatten.jpg Graphic file (type jpg)
+<use C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/C
+hapters/Images/airatten.jpg>
+Package pdftex.def Info: C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0
+ CALPOLY/000Thesis/Chapters/Images/airatten.jpg  used on input line 4308.
+(pdftex.def)             Requested size: 303.53267pt x 550.71233pt.
+ [200] [201
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.20})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4316 
+        <C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thes
+is/Chapters/Images/airatten.jpg>] [202] [203]
+Chapter 7.
+[204
+
+] [205] [206] [207] [208] [209] [210] [211] (iSBL_Thesis.bbl [212
+
+
+] [213]
+[214]
+Underfull \hbox (badness 10000) in paragraph at lines 250--255
+\OT1/cmr/m/n/10.95 stm32h723733 -[] stm32h725735 -[] and -[] stm32h730 -[] valu
+e -[] line -[] advanced -[] armbased -[] 32bit -[]
+ []
+
+[215] [216] [217] [218] [219]
+Underfull \hbox (badness 10000) in paragraph at lines 542--547
+\OT1/cmr/m/n/10.95 Impact -[] of -[] Underwater -[] Sounds -[] on -[] Fishes -[
+] and -[] Other -[] Forms -[] of -[] Marine -[] Life -[] Anthony -[]
+ []
+
+) [220] (iSBL_Thesis.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `iSBL_Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 64E0733EBFF1F51B28707FE22080716D;17215.
+ ) 
+Here is how much of TeX's memory you used:
+ 24237 strings out of 474485
+ 469782 string characters out of 5743734
+ 2316542 words of memory out of 5000000
+ 44156 multiletter control sequences out of 15000+600000
+ 570711 words of font info for 78 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,17n,99p,1489b,2192s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\frabb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti
+1095.pk> <C:\Users\frabb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm0800.pk> <C:\Users\frabb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcrm1095.pk> <C:\Users\frabb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\tcrm1200.pk><C:/Users/frabb/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/ccicons/ccicons.pfb><C:/Users/frabb/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/frabb/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/frabb/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/frabb/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/fr
+abb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:
+/Users/frabb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb><C:/Users/frabb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmmib10.pfb><C:/Users/frabb/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Users/frabb/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Users/frabb/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/frabb/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/frabb/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/frabb/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/frabb/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/
+frabb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C
+:/Users/frabb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
+10.pfb><C:/Users/frabb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmtt10.pfb><C:/Users/frabb/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmtt9.pfb><C:/Users/frabb/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/urw/times/utmr8a.pfb>
+Output written on iSBL_Thesis.pdf (233 pages, 10764398 bytes).
+PDF statistics:
+ 4610 PDF objects out of 5155 (max. 8388607)
+ 2052 named destinations out of 2073 (max. 500000)
+ 1278 words of extra memory for PDF output out of 10000 (max. 10000000)
+

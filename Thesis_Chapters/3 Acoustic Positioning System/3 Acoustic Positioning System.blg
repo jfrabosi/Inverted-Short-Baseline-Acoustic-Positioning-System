@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 3 Acoustic Positioning System.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: ../thesis.bib
+I was expecting a `,' or a `}'---line 69 of file ../thesis.bib
+ :  
+ :  howpublished = {\url https://gymnasium.farama.org/index.html}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty author in apomab
+Warning--empty booktitle in practicaloverview
+Warning--empty booktitle in gibs
+Warning--empty journal in lowcostsbl
+Warning--empty year in singletrans
+Warning--empty year in tightekf
+
+Done.
+You've used 29 entries,
+            4087 wiz_defined-function locations,
+            981 strings with 12968 characters,
+and the built_in function-call counts, 15330 in all, are:
+= -- 1236
+> -- 325
+< -- 55
++ -- 173
+- -- 75
+* -- 730
+:= -- 2640
+add.period$ -- 59
+call.type$ -- 29
+change.case$ -- 26
+chr.to.int$ -- 102
+cite$ -- 35
+duplicate$ -- 1178
+empty$ -- 1296
+format.name$ -- 83
+if$ -- 3425
+int.to.chr$ -- 0
+int.to.str$ -- 29
+missing$ -- 241
+newline$ -- 162
+num.names$ -- 28
+pop$ -- 633
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1176
+stack$ -- 0
+substring$ -- 304
+swap$ -- 820
+text.length$ -- 21
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 29
+warning$ -- 6
+while$ -- 42
+width$ -- 31
+write$ -- 333
+(There was 1 error message)

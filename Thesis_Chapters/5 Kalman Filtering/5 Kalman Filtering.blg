@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 5 Kalman Filtering.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: ../thesis.bib
+I was expecting a `,' or a `}'---line 69 of file ../thesis.bib
+ :  
+ :  howpublished = {\url https://gymnasium.farama.org/index.html}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--missing institution in madgwick
+Warning--empty year in tightekf
+
+Done.
+You've used 8 entries,
+            4087 wiz_defined-function locations,
+            871 strings with 8776 characters,
+and the built_in function-call counts, 4553 in all, are:
+= -- 375
+> -- 77
+< -- 24
++ -- 48
+- -- 20
+* -- 235
+:= -- 802
+add.period$ -- 16
+call.type$ -- 8
+change.case$ -- 8
+chr.to.int$ -- 54
+cite$ -- 10
+duplicate$ -- 331
+empty$ -- 354
+format.name$ -- 17
+if$ -- 990
+int.to.chr$ -- 0
+int.to.str$ -- 8
+missing$ -- 62
+newline$ -- 63
+num.names$ -- 8
+pop$ -- 150
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 336
+stack$ -- 0
+substring$ -- 150
+swap$ -- 248
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 8
+warning$ -- 2
+while$ -- 14
+width$ -- 9
+write$ -- 112
+(There was 1 error message)

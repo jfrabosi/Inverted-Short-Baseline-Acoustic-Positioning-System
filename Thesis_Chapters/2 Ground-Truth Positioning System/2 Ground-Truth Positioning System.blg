@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 2 Ground-Truth Positioning System.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: ../thesis.bib
+I was expecting a `,' or a `}'---line 69 of file ../thesis.bib
+ :  
+ :  howpublished = {\url https://gymnasium.farama.org/index.html}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in nasaSSPpaper
+Warning--empty journal in cscpaper
+
+Done.
+You've used 13 entries,
+            4087 wiz_defined-function locations,
+            883 strings with 9113 characters,
+and the built_in function-call counts, 4693 in all, are:
+= -- 364
+> -- 66
+< -- 0
++ -- 32
+- -- 16
+* -- 161
+:= -- 868
+add.period$ -- 25
+call.type$ -- 13
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 408
+empty$ -- 466
+format.name$ -- 18
+if$ -- 1029
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 88
+newline$ -- 62
+num.names$ -- 13
+pop$ -- 240
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 377
+stack$ -- 0
+substring$ -- 12
+swap$ -- 221
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 13
+warning$ -- 2
+while$ -- 13
+width$ -- 15
+write$ -- 123
+(There was 1 error message)

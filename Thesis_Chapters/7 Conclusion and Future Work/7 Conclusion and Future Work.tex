@@ -1,0 +1,193 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage[hidelinks]{hyperref}  % For clickable references
+\usepackage[capitalise]{cleveref}  % For intelligent cross-referencing
+\usepackage[english]{babel}
+
+\usepackage{makecell}
+\usepackage{caption}
+\usepackage{array}
+\usepackage{listings}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=black,      
+	urlcolor=cyan,
+	citecolor=black
+}
+
+\graphicspath{{C:/Users/frabb/OneDrive - Cal Poly/Documents (Cloud)/0 CALPOLY/000Thesis/Chapters/Images/}}
+
+\geometry{
+	top=1in,
+	bottom=1in,
+	left=1.5in,
+	right=1in
+}
+
+% Remove space before equations only
+\makeatletter
+\g@addto@macro\normalsize{%
+	\setlength\abovedisplayskip{-10pt}
+	\setlength\abovedisplayshortskip{-10pt}
+}
+\makeatother
+
+% Updated list settings
+\usepackage{enumitem}
+\setlist[itemize]{nosep, leftmargin=*}
+\setlist[enumerate]{nosep, leftmargin=*}
+
+% Remove space before lists
+\usepackage{etoolbox}
+\BeforeBeginEnvironment{itemize}{\vspace{-\baselineskip}}
+\BeforeBeginEnvironment{enumerate}{\vspace{-\baselineskip}}
+
+\setlength{\parskip}{\baselineskip}
+\titlespacing*{\section}{0pt}{0pt}{0pt}
+\titlespacing*{\section}{0pt}{0pt}{-10pt}
+\titlespacing*{\subsection}{0pt}{0pt}{-10pt}
+
+\captionsetup[table]{skip=0pt}
+
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,
+	tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\title{Tutorial}
+\author{Jakob Frabosilio}
+\date{\today}
+\setcounter{chapter}{6}
+\begin{document}
+
+\chapter{Conclusion and Future Work} \label{chap:7c}
+This final chapter serves two purposes: to recommend changes for future (and underwater) implementations of this project, and to wrap up all of the components of this thesis into a simple conclusion.
+
+\section{Recommendations for Future Work} \label{sec:7s1}
+This section will list all recommendations for future work mentioned previously in this thesis, including some new additions.
+
+\subsection{Ground-Truth Positioning System} \label{sec:7s1s1}
+First, if the reader wishes to improve upon the ground-truth positioning system, the following recommendations are made. Your proposed system can only be as accurate as your ground-truth positioning system; ensure that the ground-truth system is (verifiably) at least twice as accurate as your proposed system is planned to be. It is recommended to spend a good portion of the funding on an accurate system, unless the design of the ground-truth system is a significant part of your project (as it was for mine). 
+
+Keep the ground-truth system as simple as possible! The serial nature of the Fo-SHIP meant that any error in the bottom platform was propagated to the top. Using a non-novel actuator design (something like a CoreXY 3D printer body, or an off-the-shelf industrial robotic arm) can greatly improve the accuracy of the system; they tend to have more implementations and many of the basic issues with the system have already been solved.
+
+Clearly define the coordinate frames, origins, and other baseline measurements of your system. Make sure that your sensor frames can be easily related back to the “global” frame of your system.
+
+\subsection{Stacked Hexapod Platforms} \label{sec:7s1s3}
+Since this is the second-known implementation of a stacked hexapod platform, many improvements could be made to the design. If the budget allows it, use linear actuators instead of rotary actuators. This removes a degree of freedom (and a good amount of potential “slop”) from each of the six actuators on a platform, making it more accurate and easier to implement.
+
+Use more rigid materials where applicable. Currently, the 3D printed plates allow very slight deformation, and the heat-set threaded inserts can very easily shift inside the mounting holes. The threaded rods used as linkages also experienced significant bending during testing. These deformations caused the real Fo-SHIP dimensions to differ from those set in the code. Additionally, using more precise manufacturing techniques (CNCing metal plates, for example) can provide more accurate dimensions for a single platform - see Section \ref{sec:2s2} for some of these dimensions.
+
+Choose joint mechanisms and the dimensions of each platform carefully! Ball joints significantly hindered the range of motion of the Fo-SHIP - universal joints would have been a major improvement (but come at an increased cost). Also, the dimensions of the platform have a major impact on the range of motion of each axis. In this implementation, the X, Y, and C axes had a very small range of motion due to the dimensions chosen. It is recommended to carefully consider the dimensions (again, see Section \ref{sec:2s2}) to provide the best range of motion for your application. Consider simulating the range of motion before settling on a design!
+
+Use a cascading design - the bottom platform should use the most powerful actuators, while the top should use the weakest. Use proper design methods to spec the actuator requirements for each platform. This also makes the dynamics more interesting.
+
+Make better use of the interesting dynamics! In this thesis, each platform was set to the same setpoint; much more interesting movement can be achieved if each platform is set independently. This was explored slightly in deep learning research mentioned in Section \ref{ssec:2s1s2}, but deserves more exploration.
+
+Determine the full range of motion of each platform, incorporating combinations of all six axes. For testing, setpoints were determined along each axis (x=5mm, 0mm or 0° for all other axes, for example). The current code for the Fo-SHIP allows for checking if a setpoint is reachable, but there is no “bounding box” determined for a platform. Knowing the full range of motion (and not limiting it to a single axis) can help for generating random positions, or for avoiding extreme setpoints.
+
+\subsection{Acoustic Positioning System} \label{sec:7s1s2}
+The “acoustic positioning system” is really a bunch of small components that come together to produce a position estimate using sound alone. Many of these recommendations apply to an underwater implementation.
+
+Add as many receiver elements as possible, within reason. The more time-difference-of-arrival estimates that can be formed, the more resistant the system is to noise! Adding more microphones (in this implementation) does impact the maximum sampling rate, so there is a trade-off. However, adding just one more microphone would significantly improve the accuracy of the system.
+
+Design a way to verify the position of each receiver on the AUV body. Knowing exactly where the receivers are is a critical component of an accurate position estimate, and likely lead to large errors in this current implementation. Designing a sound-based calibration system (using a gantry system with a transmitter, moving it around the AUV body with a known position, and using the time-of-arrival over a large number of testing points) may provide a robust way to do this. The receivers don’t need to be spaced some equal distance apart - they can be anywhere, as long as you know exactly where they are.
+
+Consider a distributed-computing model. Currently, everything is running on a single STM32 microcontroller. If each microphone (or pair of microphones) had its own microcontroller to perform the ADC recording, it would significantly boost the maximum sampling rate. This does come at an increased complexity (and introduces issues with synchronizing the time between receivers), but would be a good next-step. Also, consider making a custom PCB with the STM32 microcontroller to reduce the overall footprint (compared to the current developer board), and add standardized connectors to simplify the process of adding receivers.
+
+Space the receiver elements as far apart as possible - a greater baseline means higher accuracy. If this were to be implemented on a cylindrical AUV, it would be best to space them linearly along the AUV. Also, consider adding microphones on all parts of the AUV body (sides, top, underside) to maximize the angle that the AUV can achieve while keeping the acoustic positioning system functioning.
+
+Make the active band-pass filters tunable! Add adjustable resistors to the PCB; the current design has no way of tuning the individual filters to account for differences in electrical components. Ideally, all the filters should provide similar responses to ensure good time-differencing. Take the time to tune the filters to ensure every microphone filters a signal the same way.
+
+For the transmitter, possibly consider a phased array. Issues appeared when implementing a 3x3 array of transmitter elements to increase the range - mainly phasing issues between elements, and a massively decreased cone-of-sound angle. This is definitely a far-future suggestion, but could help with the range of the transmitter (and possibly with reducing noise in the surrounding environment).
+
+Consider a different method for time-differencing. FFT cross-correlation worked well enough and was computationally efficient, but other methods (like matched filters or pulse-lock loops) are worth exploring.
+
+Consider a different minimization method. Hooke-Jeeves search worked well, but methods like gradient descent are much more studied and may perform better.
+
+Use the standard deviation of each microphone signal (after full recording) to your advantage. Use the signal with the highest standard deviation (or use another metric for the “best signal”), and compare all other signals to that one. This would require changing the residual function in Hooke-Jeeves search, but it’s an easy-enough fix.
+
+Implement a proper ocean acoustics model into the Hooke-Jeeves search. This is mentioned more in Section \ref{sec:6s3}, but the speed of sound in water is not constant (like in air), so a proper model that accounts for the changing speed of sound is necessary. Additional sensors (depth, salinity, temperature) are needed for this.
+
+Use waterproof receiver and transmitter elements. The current elements are air-based transducers, and waterproof (and pressure-rated) transducers are necessary to make this system work underwater. Also, consider the directionality of the transducers. This design used very directional transducers (cone of sound of 55°) and it significantly impacted the range of the system to a narrow cone. Transducers with a more spherical directionality would be desired.
+
+Implement a method for transmitting GPS coordinates through ultrasound. The basics of this project are already embedded in the system, but they were not fully implemented in time for submission.
+
+\subsection{Orientation Estimation} \label{sec:7s1s4}
+This portion of the thesis that has a lot of room for improvement. First, use better equipment. Consider a high-end MEMS IMU, or if the budget allows it, move to a more professional inertial navigation system. Use multiple IMUs to help combat noise. Get a better magnetometer - this will likely double the system accuracy right off the bat! Any improvements to the hardware will be invaluable.
+
+Consider a different sensor fusion algorithm. The Madgwick filter made sense for this implementation - with everything running on a single microcontroller - but an extended Kalman filter would give the best results. The extended Kalman filter can also estimate the gains and biases of the accelerometer, gyroscope, and magnetometer for calibration purposes.
+
+Use a dedicated microcontroller for orientation estimation. Set the update rate as high as possible (ideally in the kHz range).
+
+Calibrate any hardware before using! Use calibration factors as described in Section \ref{sec:4s3}, or use more sophisticated methods. Ensure that the magnetometer is calibrated using hard and soft iron offsets, and ensure that this is done after the system is installed on the AUV - in situ equipment needs to be compensated for.
+
+Implement a method for verifying the orientation estimate accuracy. Use an experimental setup to compare the sensor fusion filter output with the true orientation - compare stationary and moving results, and consider the time-delay / lag of the filter.
+
+\subsection{Dead Reckoning} \label{sec:7s1s5}
+Closely related to orientation estimation, dead reckoning will benefit from the hardware upgrades described above. Using better orientation estimation equipment will give much better dead reckoning results. Use proper gyroscopes (ring laser or fiber optic) if you have the budget.
+
+Have a method for measuring velocity to avoid the double-integration step. Doppler velocity logs are a great candidate if the AUV is near the seafloor. Simultaneous localization and mapping is also a candidate, but is much more complex.
+
+Remove most of the assumptions for dead reckoning in this implementation. The gait tracking-related suggestions would not hold for a real AUV.
+
+Like the orientation estimate, increase the update rate for the dead reckoning method. Faster rates result in better estimates (assuming good data / hardware).
+
+\subsection{Kalman Filtering} \label{sec:7s1s6}
+This implementation assumes a linear model to avoid using an extended Kalman filter. For a future implementation, please consider an extended Kalman filter! Its increased complexity is well worth it, and allows you to remove the constant velocity assumption.
+
+It is highly recommended to consider a more tightly-coupled approach. Consider a single extended Kalman filter that takes in IMU data, dead reckoning data (like Doppler velocity logs), and acoustic position data to form a single state estimate. Use a modified measurement vector to account for the different update rates (IMU rate is much faster than acoustic positioning rate). Consult the tightly-coupled approach mentioned in Section \ref{ssec:4s1s2} for more information.
+
+Use the dead reckoning data (if the measurements are decent and their accuracy can be verified) in the Kalman filter. The iSBL-SF Kalman filter did perform worse in every test than the iSBL Kalman filter in this prototype, but this is a function of poor tuning and bad dead reckoning measurements.
+
+Tune the Kalman filter! Consult Section \ref{sec:5s5} for more details on tuning. Consider an automated tuning approach due to the massive tunable matrices that would be present in an extended Kalman filter.
+
+\subsection{Testing and Data Collection} \label{sec:7s1s6}
+Testing underwater requires a complete redesign of the testing setup described in this paper. Consider purchasing a pre-calibrated and verified acoustic positioning system (ideally long baseline) to confirm the accuracy of any underwater implementations.
+
+Test much deeper and at greater angles relative to the transmitter! This requires better transducers (as covered in a previous subsection). The testing presented in this thesis only explored a limited range of a full (ideal) system.
+
+Consider controlling for perceived volume when comparing accuracy versus distance. Use the sound propagation and attenuation models described in Section \ref{sec:6s3} to account for the decrease in volume over range. Also, test different power levels (of the transmitter) for the same testing location!
+
+\section{Conclusion} \label{sec:7s2}
+This thesis presents multiple complex and individual systems being integrated together to form one “acoustic positioning system.” The work spans multiple disciplines: mechanical engineering, electrical engineering, software engineering, computer science, acoustics engineering, and marine science, among others.
+
+I hope that through reading this document, you have achieved a good understanding of the work done here. Ultimately, this work is just a prototype for a full underwater implementation; it would be wonderful to see some parts of this project implemented on a real AUV or underwater positioning system. It is my hope that you will take some aspects of this research and apply it to your own project. All of the code is available on my GitHub repository - if you do make use of this research, please email me and let me know. I would love to hear about it.
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{../thesis}
+
+\end{document}

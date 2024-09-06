@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 4 Absolute Orientation and Dead-Reckoning.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: ../thesis.bib
+I was expecting a `,' or a `}'---line 69 of file ../thesis.bib
+ :  
+ :  howpublished = {\url https://gymnasium.farama.org/index.html}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--missing institution in madgwick
+Warning--empty journal in sfcomp
+Warning--empty year in tightekf
+Warning--empty journal in imucal
+
+Done.
+You've used 22 entries,
+            4087 wiz_defined-function locations,
+            938 strings with 11411 characters,
+and the built_in function-call counts, 11285 in all, are:
+= -- 914
+> -- 212
+< -- 43
++ -- 114
+- -- 42
+* -- 520
+:= -- 1958
+add.period$ -- 44
+call.type$ -- 22
+change.case$ -- 22
+chr.to.int$ -- 102
+cite$ -- 26
+duplicate$ -- 856
+empty$ -- 950
+format.name$ -- 52
+if$ -- 2508
+int.to.chr$ -- 0
+int.to.str$ -- 22
+missing$ -- 171
+newline$ -- 133
+num.names$ -- 22
+pop$ -- 474
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 856
+stack$ -- 0
+substring$ -- 272
+swap$ -- 591
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 22
+warning$ -- 4
+while$ -- 35
+width$ -- 24
+write$ -- 257
+(There was 1 error message)

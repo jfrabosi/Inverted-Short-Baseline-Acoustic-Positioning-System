@@ -1,0 +1,15 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Pugh matrix for ground-truth positioning system actuator}}{14}{table.2.1}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Bill of materials for Fo-SHIP}}{20}{table.2.2}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Parameters for hexapod platform code implementation}}{21}{table.2.3}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces Fo-SHIP position validation}}{52}{table.2.4}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Truth table for motor driver}}{78}{table.3.1}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Estimated accuracy of Madgwick filter orientation estimate}}{154}{table.4.1}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces True and estimated changes in position using dead reckoning}}{155}{table.4.2}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

@@ -1,0 +1,121 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Common underwater positioning methods}}{3}{figure.1.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Functional diagram for proposed underwater implementation}}{6}{figure.1.2}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Stacked Stewart platform from Balaban, Cooper, and Komendera \cite {nasaSSPpaper}}}{8}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Gough’s hexapod platform \cite {parallelorigins}}}{9}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Stewart’s hexapod platform \cite {stewartpaper}}}{10}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Cappel’s hexapod platform \cite {parallelorigins}}}{10}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Custom stacked hexapod platform Gymnasium environment \cite {cscpaper}}}{11}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Jeanmonod’s implementation of a single hexapod platform, CAD model \cite {nichub}}}{15}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Jeanmonod’s implementation of a single hexapod platform, physical model \cite {nicdoc}}}{15}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces First platform base plate}}{16}{figure.2.8}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Second and fourth platform base plate}}{17}{figure.2.9}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Third platform base plate}}{17}{figure.2.10}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Middle plate for all platforms}}{17}{figure.2.11}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces End effector plate}}{18}{figure.2.12}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Spacing of plates for second platform}}{18}{figure.2.13}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Printed base plate with PCA9685 servo driver}}{19}{figure.2.14}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Parameters for hexapod platform in Jeanmonod’s code implementation \cite {nichub}}}{22}{figure.2.15}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Hobby servo motor PWM timing \cite {servos}}}{23}{figure.2.16}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Typical I\textsuperscript {2}C wiring \cite {tiI2C}}}{24}{figure.2.17}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Fo-SHIP wiring diagram}}{25}{figure.2.18}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Wooden base of Fo-SHIP}}{26}{figure.2.19}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Assembled Fo-SHIP, first two layers}}{28}{figure.2.20}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Fully-assembled Fo-SHIP body}}{29}{figure.2.21}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Finite-state machine diagram for Fo-SHIP code}}{33}{figure.2.22}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Forward kinematics diagram}}{40}{figure.2.23}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Go/no-go gauge drawing and part}}{48}{figure.2.24}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Manufacturing of go/no-go gauge on mill in Mustang ‘60 Machine Shop}}{49}{figure.2.25}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Servo misalignment diagram (exaggerated scale)}}{50}{figure.2.26}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Bathyscape \textit {Trieste 1}, which used the first short baseline acoustic positioning system to locate a nuclear submarine wreck \cite {apomab}}}{55}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Long baseline acoustic positioning system diagram \cite {practicaloverview}}}{56}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ultrashort baseline acoustic positioning system diagram \cite {practicaloverview}}}{57}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Short baseline acoustic positioning system diagram \cite {practicaloverview}}}{58}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Inverted ultrashort baseline system example \cite {iusblukf}}}{58}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Inverted long baseline system example \cite {ilbl}}}{59}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces iSBL array without wiring or microcontroller, with local coordinate system overlaid; X-forward, Y-right, Z-down relative to the face of the array}}{61}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Partial CAD model of iSBL array, made using Solidworks}}{61}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Side view of iSBL array}}{62}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces iSBL adapter in 3D slicing software (PrusaSlicer)}}{63}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces STM32H723ZG development board \cite {stm144}}}{63}{figure.3.11}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces iSBL system wiring diagram}}{64}{figure.3.12}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Sound attenuation in seawater with dominant attenuation process regions \cite {computational}}}{65}{figure.3.13}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Inverting active band-pass filter \cite {abpfws}}}{67}{figure.3.14}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Custom active band-pass filter circuit diagram}}{68}{figure.3.15}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Sine-sweep test of active band-pass filter circuit, run in LTSpice. Solid line is amplitude ratio, dashed line is phase shift}}{68}{figure.3.16}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Sensitivity of 400SR160 ultrasonic receiver \cite {400sr160}}}{69}{figure.3.17}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Custom active band-pass filter in Eagle}}{69}{figure.3.18}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Custom active band-pass filter render from OSH Park order}}{69}{figure.3.19}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Fabricated active band-pass filter PCB, unpopulated}}{70}{figure.3.20}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Soldering in-progess for PCB}}{70}{figure.3.21}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Fully-assembled active band-pass filter PCB}}{71}{figure.3.22}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Soldered breadboard with capacitors, header pins, and wires to ultrasonic receiver PCBs}}{71}{figure.3.23}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Fully-assembled iSBL array}}{73}{figure.3.24}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Matlab simulation of 3x3 array}}{75}{figure.3.25}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Transmitter system with 3x3 array (eventually swapped with single transmitter)}}{76}{figure.3.26}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Active damping of ultrasonic receivers using engineered waves \cite {activedamping}}}{77}{figure.3.27}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Output of GPIO pins producing square waveform, input to motor driver}}{80}{figure.3.28}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces 8-bit number 241 (11110001) transmitted over ultrasonic}}{81}{figure.3.29}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Finite-state machine diagram for acoustic positioning system}}{82}{figure.3.30}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Timing diagram for four subsequent ADC conversions \cite {stmdatasheet}}}{85}{figure.3.31}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Timing diagram for MultiMode ADC conversions \cite {stmdatasheet}}}{86}{figure.3.32}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Microphone recordings on Keysight oscilloscope}}{91}{figure.3.33}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Microphone recordings on STM32 ADCs, slightly different receiver orientation}}{92}{figure.3.34}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Convolution operation for two discrete signals \cite {dspguide}}}{93}{figure.3.35}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Convolution operation for two discrete signals, step-by-step process \cite {dspguide}}}{93}{figure.3.36}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Convolution and cross-correlation operation for continuous signals \cite {wikicross}}}{94}{figure.3.37}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Cross-correlation of two triangular pulses}}{95}{figure.3.38}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces FFT convolution visual guide \cite {dspguide}}}{97}{figure.3.39}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Cross-correlation of two triangular pulses, STM32 implementation}}{101}{figure.3.40}%
+\contentsline {figure}{\numberline {3.41}{\ignorespaces Orientation correction demonstration, 2D case}}{104}{figure.3.41}%
+\contentsline {figure}{\numberline {3.42}{\ignorespaces Matlab HJS results, search run on each 2D plane}}{110}{figure.3.42}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces V2 missile gyroscope \cite {v2missile}}}{118}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces BNO055 IMU integrated circuit chip size \cite {bno055}}}{119}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces IMU performance level comparison \cite {imuadvnav}}}{120}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Mahony filter algorithm \cite {ekfmadmah}}}{122}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Accuracy comparison for Madgwick, Mahony, and extended Kalman filters in quadrotor implementation \cite {ekfmadmah}}}{123}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Computation time comparison for 6401 filter updates \cite {ekfmadmah}}}{123}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Madgwick filter orientation accuracy, pedestrian implementation \cite {sfcomp}}}{124}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Mahony filter orientation accuracy, pedestrian implementation \cite {sfcomp}}}{124}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces LSM6DSOX + LIS3MDL IMU \cite {adafruit}}}{126}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Raw IMU coordinate frame (blue) and iSBL array coordinate frame (red); Z\textsubscript {IMU} = X\textsubscript {Fo-SHIP}}}{127}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Angle-axis representation of 3D rotation \cite {quaternionuse}}}{135}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Block diagram for Madgwick filter with accelerometer, gyroscope, and magnetometer (error compensation for magnetic distortion in Group 1 and for gyroscope bias drift in Group 2) \cite {madgwick}}}{139}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces IMU velocity drift example, 1D case}}{145}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces \texttt {beta = 0.3}, roll and pitch test with holds between}}{149}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces \texttt {beta = 0.2}, roll and pitch test with holds between}}{149}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces \texttt {beta = 0.1}, roll and pitch test with holds between}}{150}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces \texttt {beta = 0.05}, roll and pitch test with holds between}}{150}{figure.4.17}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces \texttt {beta = 0.2}, roll and pitch test with no holds}}{151}{figure.4.18}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces \texttt {beta = 0.1}, roll and pitch test with no holds}}{152}{figure.4.19}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces \texttt {beta = 0.05}, roll and pitch test with no holds}}{152}{figure.4.20}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces \texttt {beta = 0.11}, full Fo-SHIP range-of-motion test}}{153}{figure.4.21}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Kalman filter block diagram \cite {kfsimply}}}{159}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Airplane example diagram and equations of motion}}{160}{figure.5.2}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Transmitter position for each test}}{180}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Test environment for Test 5}}{181}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Stationary results for Test 3 (transmitter 3.88m away)}}{184}{figure.6.3}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Stationary results for Test 4 (transmitter 1.43m away)}}{184}{figure.6.4}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Standard deviation of all tests as a function of distance to transmitter, fit to power curve}}{185}{figure.6.5}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Rapid movement results for Test 8 (19.1° angle between transmitter-origin vector and X-axis)}}{187}{figure.6.6}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Rapid movement results for Test 2 (0° angle between transmitter-origin vector and X-axis)}}{187}{figure.6.7}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Standard deviation of all tests as a function of angle between transmitter-origin vector and X-axis, fit to linear equation}}{188}{figure.6.8}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Stationary results for Test 6}}{189}{figure.6.9}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Moving results for Test 6 (combined rapid and gradual movement)}}{189}{figure.6.10}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Stationary results for all test locations}}{190}{figure.6.11}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Moving results for all test locations (combined rapid and gradual movement)}}{190}{figure.6.12}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Rapid movement results for all test locations}}{191}{figure.6.13}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Gradual movement results for all test locations}}{191}{figure.6.14}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Histograms of differences for all test locations}}{194}{figure.6.15}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Histograms of differences for Test 3 (transmitter 3.88m away), stationary results only}}{195}{figure.6.16}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Histograms of differences for Test 4 (transmitter 1.43m away), stationary results only}}{196}{figure.6.17}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Summary of data collection, iSBL-SF and iSBL Kalman filter models}}{197}{figure.6.18}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Summary of data collection, raw iSBL data and average of three models}}{197}{figure.6.19}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Attenuation factor of 40kHz sound in air, room temperature and humidity \cite {airatten}}}{201}{figure.6.20}%
+\addvspace {10\p@ }
