@@ -5,7 +5,7 @@ This is the codebase for my Master's thesis in Mechanical Engineering. For this 
 - A method for transmitting 2kb/s of data over ultrasonic sound
 - And much more!
 
-My thesis is available at [Cal Poly's Digital Commons](https://digitalcommons.calpoly.edu/theses/2914/) and on my [LinkedIn profile](https://www.linkedin.com/in/jakobhadal/). You can see a [video of the system in action here](https://www.youtube.com/watch?v=QgJyHS0l2EE)
+My thesis is available at [Cal Poly's Digital Commons](https://digitalcommons.calpoly.edu/theses/2914/) and on my [LinkedIn profile](https://www.linkedin.com/in/jakobhadal/). You can see a [video of the system in action here](https://www.youtube.com/watch?v=QgJyHS0l2EE).
 
 The hardware used includes an ESP32-WROOM (hexapod platform), STM32H723 (acoustic positioning algorithm and sensor fusion), and STM32F411 (acoustic transmitter). The ESP32 was programmed using PlatformIO and C++, and the STM32s were programmed using STM32CubeIDE and C. Some data analysis was performed using Python.
 
